@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Fenerbahçe transfer bilgisi üzerine iki kişilik futbol düellosu."
+  />
+
+  <title>Fener Transfer Düellosu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <main class="app-shell">
+
+    <!-- ÜST MENÜ -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">FB</div>
+
+        <div>
+          <p class="eyebrow">SARI LACİVERT HAFIZA</p>
+          <h1>Fener Transfer Düellosu</h1>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+
+        <button
+          id="historyButton"
+          class="ghost-button hidden"
+          type="button"
+        >
+          Geçmiş
+        </button>
+
+        <button
+          id="downloadReportsButton"
+          class="ghost-button hidden"
+          type="button"
+        >
+          Hata kayıtları
+        </button>
+
+        <button
+          id="restartButton"
+          class="ghost-button hidden"
+          type="button"
+        >
+          Yeni oyun
+        </button>
+
+      </div>
+    </header>
+
+    <!-- OYUN KURULUM EKRANI -->
+    <section id="setupScreen" class="screen active">
+
+      <div class="hero-card">
+
+        <div class="hero-copy">
+          <span class="pill">
+            Tek bilgisayar • 2 oyuncu
+          </span>
+
+          <h2>
+            Transfer hafızanı rakibine karşı test et.
+          </h2>
+
+          <p>
+            Futbolcunun Fenerbahçe'ye geldiği sezonu,
+            geldiği takımı ve ayrıldığı takımı tahmin et.
+          </p>
+        </div>
+
+        <form id="setupForm" class="setup-form">
+
+          <label>
+            Oyuncu 1
+
+            <input
+              id="playerOneInput"
+              type="text"
+              maxlength="18"
+              value="Oyuncu 1"
+              required
+            />
+          </label>
+
+          <label>
+            Oyuncu 2
+
+            <input
+              id="playerTwoInput"
+              type="text"
+              maxlength="18"
+              value="Oyuncu 2"
+              required
+            />
+          </label>
+
+          <label>
+            Kişi başı tur
+
+            <select id="roundCountInput">
+              <option value="3">3 tur</option>
+              <option value="5" selected>5 tur</option>
+              <option value="10">10 tur</option>
+            </select>
+          </label>
+
+          <button
+            class="primary-button"
+            type="submit"
+          >
+            Düelloyu başlat
+          </button>
+
+        </form>
+      </div>
+
+      <div class="rules-grid">
+
+        <article>
+          <span>01</span>
+
+          <h3>Sezonu bul</h3>
+
+          <p>
+            Yanlış tahminde daha erken veya daha geç ipucu al.
+          </p>
+        </article>
+
+        <article>
+          <span>02</span>
+
+          <h3>Takımları bil</h3>
+
+          <p>
+            Geldiği ve gittiği takım için üçer deneme hakkın var.
+          </p>
+        </article>
+
+        <article>
+          <span>03</span>
+
+          <h3>Puanı topla</h3>
+
+          <p>
+            İlk deneme 10, ikinci 7, üçüncü 5 puan kazandırır.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SIRA DEĞİŞTİRME EKRANI -->
+    <section id="handoffScreen" class="screen">
+
+      <div class="handoff-card">
+
+        <p class="eyebrow">
+          SIRADAKİ OYUNCU
+        </p>
+
+        <h2 id="handoffPlayerName">
+          Oyuncu 1
+        </h2>
+
+        <p>
+          Rakibin ekrana bakmasın.
+          Hazır olduğunda futbolcuyu aç.
+        </p>
+
+        <button
+          id="revealButton"
+          class="primary-button"
+          type="button"
+        >
+          Hazırım, futbolcuyu göster
+        </button>
+
+      </div>
+    </section>
+
+    <!-- OYUN EKRANI -->
+    <section id="gameScreen" class="screen">
+
+      <!-- SKOR TABLOSU -->
+      <div class="scoreboard">
+
+        <div id="scoreCardOne" class="score-card">
+          <span id="scoreNameOne">
+            Oyuncu 1
+          </span>
+
+          <strong id="scoreOne">
+            0
+          </strong>
+        </div>
+
+        <div class="round-card">
+          <span>TUR</span>
+
+          <strong id="roundIndicator">
+            1 / 5
+          </strong>
+        </div>
+
+        <div id="scoreCardTwo" class="score-card">
+          <span id="scoreNameTwo">
+            Oyuncu 2
+          </span>
+
+          <strong id="scoreTwo">
+            0
+          </strong>
+        </div>
+
+      </div>
+
+      <div class="game-layout">
+
+        <!-- FUTBOLCU KARTI -->
+        <article class="player-card">
+
+          <div class="turn-badge">
+            Sıra:
+
+            <strong id="currentPlayerLabel">
+              Oyuncu 1
+            </strong>
+          </div>
+
+          <img
+            id="footballerImage"
+            src=""
+            alt="Futbolcu görseli"
+          />
+
+          <h2 id="footballerName">
+            Futbolcu
+          </h2>
+
+          <p>
+            Üç kategoriden mümkün olan en yüksek puanı topla.
+          </p>
+
+        </article>
+
+        <!-- SORULAR PANELİ -->
+        <div class="questions-panel">
+
+          <!-- SEZON SORUSU -->
+          <section
+            id="seasonQuestion"
+            class="question-card active-question"
+          >
+
+            <div class="question-heading">
+
+              <span>1</span>
+
+              <div>
+                <h3>Geldiği sezon</h3>
+
+                <p id="seasonAttemptsText">
+                  Kalan hak: 5
+                </p>
+              </div>
+
+              <strong id="seasonScorePreview">
+                +15
+              </strong>
+
+            </div>
+
+            <div class="answer-row">
+
+              <select id="seasonInput"></select>
+
+              <button
+                id="seasonSubmit"
+                type="button"
+              >
+                Tahmin et
+              </button>
+
+            </div>
+
+            <p
+              id="seasonFeedback"
+              class="feedback"
+            ></p>
+
+          </section>
+
+          <!-- GELDİĞİ TAKIM SORUSU -->
+          <section
+            id="arrivalQuestion"
+            class="question-card locked"
+          >
+
+            <div class="question-heading">
+
+              <span>2</span>
+
+              <div>
+                <h3>Geldiği takım</h3>
+
+                <p id="arrivalAttemptsText">
+                  Kalan hak: 3
+                </p>
+              </div>
+
+              <strong id="arrivalScorePreview">
+                +10
+              </strong>
+
+            </div>
+
+            <div class="answer-row">
+
+              <div class="autocomplete">
+
+                <input
+                  id="arrivalInput"
+                  type="text"
+                  placeholder="Takım adını yaz"
+                  autocomplete="off"
+                />
+
+                <div
+                  id="arrivalSuggestions"
+                  class="suggestions hidden"
+                  role="listbox"
+                ></div>
+
+              </div>
+
+              <button
+                id="arrivalSubmit"
+                type="button"
+              >
+                Tahmin et
+              </button>
+
+            </div>
+
+            <p
+              id="arrivalFeedback"
+              class="feedback"
+            ></p>
+
+          </section>
+
+          <!-- GİTTİĞİ TAKIM SORUSU -->
+          <section
+            id="departureQuestion"
+            class="question-card locked"
+          >
+
+            <div class="question-heading">
+
+              <span>3</span>
+
+              <div>
+                <h3>Gittiği takım</h3>
+
+                <p id="departureAttemptsText">
+                  Kalan hak: 3
+                </p>
+              </div>
+
+              <strong id="departureScorePreview">
+                +10
+              </strong>
+
+            </div>
+
+            <div class="answer-row">
+
+              <div class="autocomplete">
+
+                <input
+                  id="departureInput"
+                  type="text"
+                  placeholder="Takım adını yaz"
+                  autocomplete="off"
+                />
+
+                <div
+                  id="departureSuggestions"
+                  class="suggestions hidden"
+                  role="listbox"
+                ></div>
+
+              </div>
+
+              <button
+                id="departureSubmit"
+                type="button"
+              >
+                Tahmin et
+              </button>
+
+            </div>
+
+            <p
+              id="departureFeedback"
+              class="feedback"
+            ></p>
+
+          </section>
+
+          <!-- TUR ÖZETİ -->
+          <div
+            id="turnSummary"
+            class="turn-summary hidden"
+          >
+
+            <p class="eyebrow">
+              TUR ÖZETİ
+            </p>
+
+            <div class="summary-player">
+
+              <img
+                id="summaryPlayerImage"
+                src=""
+                alt="Oyuncu fotoğrafı"
+              />
+
+              <div>
+                <h3 id="summaryPlayerName">
+                  Futbolcu
+                </h3>
+
+                <p id="summarySeason">
+                  2023-24 sezonunda geldi
+                </p>
+              </div>
+
+            </div>
+
+            <div class="transfer-route">
+
+              <!-- GELDİĞİ TAKIM -->
+              <div class="summary-club">
+
+                <img
+                  id="summaryArrivalLogo"
+                  src=""
+                  alt="Geldiği takım logosu"
+                />
+
+                <span id="summaryArrivalClub">
+                  Geldiği takım
+                </span>
+
+              </div>
+
+              <span class="route-arrow">
+                →
+              </span>
+
+              <!-- FENERBAHÇE LOGOSU -->
+              <div class="fener-center">
+
+                <img
+                  src="images/fenerbahce-logo.png"
+                  alt="Fenerbahçe"
+                />
+
+              </div>
+
+              <span class="route-arrow">
+                →
+              </span>
+
+              <!-- GİTTİĞİ TAKIM -->
+              <div class="summary-club">
+
+                <img
+                  id="summaryDepartureLogo"
+                  src=""
+                  alt="Gittiği takım logosu"
+                />
+
+                <span id="summaryDepartureClub">
+                  Gittiği takım
+                </span>
+
+              </div>
+
+            </div>
+
+            <div class="summary-score">
+
+              <span>
+                Bu tur kazanılan puan:
+              </span>
+
+              <strong id="summaryTurnScore">
+                0
+              </strong>
+
+            </div>
+
+            <!-- VERİ HATASI BİLDİR -->
+            <div class="summary-actions">
+
+              <button
+                id="reportDataButton"
+                class="report-button"
+                type="button"
+              >
+                ⚠ Veri hatası bildir
+              </button>
+
+              <p
+                id="reportDataMessage"
+                class="report-message"
+              ></p>
+
+            </div>
+
+          </div>
+
+          <button
+            id="nextTurnButton"
+            class="primary-button hidden"
+            type="button"
+          >
+            Sırayı değiştir
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SONUÇ EKRANI -->
+    <section id="resultScreen" class="screen">
+
+      <div class="result-card">
+
+        <span class="trophy">
+          🏆
+        </span>
+
+        <p class="eyebrow">
+          DÜELLO TAMAMLANDI
+        </p>
+
+        <h2 id="winnerText">
+          Kazanan
+        </h2>
+
+        <div class="final-scores">
+
+          <div>
+            <span id="finalNameOne">
+              Oyuncu 1
+            </span>
+
+            <strong id="finalScoreOne">
+              0
+            </strong>
+          </div>
+
+          <div>
+            <span id="finalNameTwo">
+              Oyuncu 2
+            </span>
+
+            <strong id="finalScoreTwo">
+              0
+            </strong>
+          </div>
+
+        </div>
+
+        <button
+          id="playAgainButton"
+          class="primary-button"
+          type="button"
+        >
+          Tekrar oyna
+        </button>
+
+      </div>
+    </section>
+
+    <!-- GEÇMİŞ PENCERESİ -->
+    <div
+      id="historyModal"
+      class="modal hidden"
+    >
+
+      <div
+        id="historyBackdrop"
+        class="modal-backdrop"
+      ></div>
+
+      <div class="modal-card">
+
+        <div class="modal-header">
+
+          <div>
+            <p class="eyebrow">
+              TUR GEÇMİŞİ
+            </p>
+
+            <h2>
+              Oynanan turlar
+            </h2>
+          </div>
+
+          <button
+            id="closeHistoryButton"
+            class="modal-close"
+            type="button"
+            aria-label="Geçmiş penceresini kapat"
+          >
+            ×
+          </button>
+
+        </div>
+
+        <div
+          id="historyList"
+          class="history-list"
+        ></div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
