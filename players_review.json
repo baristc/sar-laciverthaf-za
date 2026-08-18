@@ -765,7 +765,8 @@
     "departureDate": "2026-06-29",
     "transferType": "Back from Loan",
     "reviewReasons": [
-      "geliş tipi kontrol edilmeli: Back from Loan"
+      "geliş tipi kontrol edilmeli: Back from Loan",
+      "gittiği takım kimliği/logosu eksik"
     ]
   },
   {
@@ -1286,6 +1287,29 @@
     "transferType": "Loan",
     "reviewReasons": [
       "geliş tipi kontrol edilmeli: Loan"
+    ]
+  },
+  {
+    "id": "50097-2020-08-06-1",
+    "playerId": 50097,
+    "stintNumber": 1,
+    "name": "M. Yandaş",
+    "image": "https://media.api-sports.io/football/players/50097.png",
+    "arrivalSeason": "2020-21",
+    "arrivalClub": "Sivasspor",
+    "arrivalClubId": 1002,
+    "arrivalClubLogo": "https://media.api-sports.io/football/teams/1002.png",
+    "arrivalAliases": [],
+    "departureClub": "Yandas Mert",
+    "departureClubId": null,
+    "departureClubLogo": null,
+    "departureAliases": [],
+    "isCurrentPlayer": false,
+    "arrivalDate": "2020-08-06",
+    "departureDate": "2026-06-29",
+    "transferType": "Free",
+    "reviewReasons": [
+      "gittiği takım kimliği/logosu eksik"
     ]
   },
   {

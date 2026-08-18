@@ -172,42 +172,29 @@ function normalise(value) {
 function getAllClubs() {
   const clubs = new Map();
 
-  state.allPlayers.forEach((player) => {
-    if (player.arrivalClub) {
-      const key = normalise(player.arrivalClub);
-
-      if (!clubs.has(key)) {
-        clubs.set(key, {
-          name: player.arrivalClub,
-          logo: player.arrivalClubLogo || null,
-        });
-      }
+  function addClub(name, logo, aliases = []) {
+    if (!name) return;
+    const key = normalise(name);
+    const existing = clubs.get(key);
+    if (existing) {
+      existing.logo ||= logo || null;
+      existing.aliases = [...new Set([...existing.aliases, ...aliases])];
+      return;
     }
-
-    if (player.departureClub) {
-      const key = normalise(player.departureClub);
-
-      if (!clubs.has(key)) {
-        clubs.set(key, {
-          name: player.departureClub,
-          logo: player.departureClubLogo || null,
-        });
-      }
-    }
-  });
-
-  if (!clubs.has(normalise("Fenerbahçe"))) {
-    clubs.set(normalise("Fenerbahçe"), {
-      name: "Fenerbahçe",
-      logo: "images/fenerbahce-logo.png",
-    });
+    clubs.set(key, { name, logo: logo || null, aliases: [...aliases] });
   }
 
-  return [...clubs.values()].sort((a, b) =>
-    a.name.localeCompare(b.name, "tr")
-  );
-}
+  state.allPlayers.forEach((player) => {
+    addClub(player.arrivalClub, player.arrivalClubLogo, player.arrivalAliases || []);
+    addClub(player.departureClub, player.departureClubLogo, player.departureAliases || []);
+  });
 
+  addClub("Fenerbahçe", "images/fenerbahce-logo.png", [
+    "FB", "Fener", "Fenerbahçe'de", "Hâlâ Fenerbahçe'de"
+  ]);
+
+  return [...clubs.values()].sort((a, b) => a.name.localeCompare(b.name, "tr"));
+}
 
 function showClubSuggestions(input, suggestionsBox) {
   const searchText = normalise(input.value.trim());
@@ -219,9 +206,10 @@ function showClubSuggestions(input, suggestionsBox) {
   }
 
   const matches = getAllClubs()
-    .filter((club) =>
-      normalise(club.name).includes(searchText)
-    )
+    .filter((club) => {
+      const searchableNames = [club.name, ...club.aliases];
+      return searchableNames.some((name) => normalise(name).includes(searchText));
+    })
     .slice(0, 8);
 
   if (matches.length === 0) {
@@ -238,7 +226,6 @@ function showClubSuggestions(input, suggestionsBox) {
             src="${club.logo}"
             alt=""
             class="suggestion-logo"
-            onerror="this.style.display='none'"
           />
         `
         : `
@@ -262,6 +249,15 @@ function showClubSuggestions(input, suggestionsBox) {
     .join("");
 
   suggestionsBox.classList.remove("hidden");
+
+  suggestionsBox.querySelectorAll(".suggestion-logo").forEach((image) => {
+    image.addEventListener("error", () => {
+      const fallback = document.createElement("span");
+      fallback.className = "suggestion-logo-fallback";
+      fallback.textContent = image.closest(".suggestion-item").dataset.clubName.charAt(0);
+      image.replaceWith(fallback);
+    }, { once: true });
+  });
 
   suggestionsBox
     .querySelectorAll(".suggestion-item")
@@ -298,7 +294,7 @@ function buildSeasonOptions() {
 }
 
 async function loadPlayers() {
-  const response = await fetch("players.json?v=4");
+  const response = await fetch("players.json?v=5");
   if (!response.ok) {
     throw new Error("Oyuncu verileri yüklenemedi.");
   }
@@ -791,7 +787,6 @@ function renderHistory() {
           <img
             src="${item.footballerImage}"
             alt="${item.footballerName}"
-            onerror="this.style.display='none'"
           />
 
           <div class="history-info">

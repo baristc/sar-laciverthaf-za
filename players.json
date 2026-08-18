@@ -2960,26 +2960,6 @@
     "transferType": "€ 3.5M"
   },
   {
-    "id": "50097-2020-08-06-1",
-    "playerId": 50097,
-    "stintNumber": 1,
-    "name": "M. Yandaş",
-    "image": "https://media.api-sports.io/football/players/50097.png",
-    "arrivalSeason": "2020-21",
-    "arrivalClub": "Sivasspor",
-    "arrivalClubId": 1002,
-    "arrivalClubLogo": "https://media.api-sports.io/football/teams/1002.png",
-    "arrivalAliases": [],
-    "departureClub": "Yandas Mert",
-    "departureClubId": null,
-    "departureClubLogo": null,
-    "departureAliases": [],
-    "isCurrentPlayer": false,
-    "arrivalDate": "2020-08-06",
-    "departureDate": "2026-06-29",
-    "transferType": "Free"
-  },
-  {
     "id": "1369-2019-01-31-1",
     "playerId": 1369,
     "stintNumber": 1,

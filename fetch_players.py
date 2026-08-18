@@ -266,6 +266,8 @@ def create_game_records(players: dict[int, dict[str, Any]]) -> tuple[list[dict[s
             problems: list[str] = []
             if not arrival["out_name"]:
                 problems.append("geldiği takım eksik")
+            if not arrival["out_id"]:
+                problems.append("geldiği takım kimliği/logosu eksik")
 
             transfer_type = str(arrival.get("type") or "")
             if "loan" in transfer_type.lower() or "kiralık" in transfer_type.lower():
@@ -307,6 +309,8 @@ def create_game_records(players: dict[int, dict[str, Any]]) -> tuple[list[dict[s
 
             if departure and not departure["in_name"]:
                 problems.append("gittiği takım eksik")
+            if departure and not departure["in_id"]:
+                problems.append("gittiği takım kimliği/logosu eksik")
 
             if problems:
                 review.append({**record, "reviewReasons": problems})
