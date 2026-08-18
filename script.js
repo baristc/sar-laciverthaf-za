@@ -29,6 +29,36 @@ const state = {
 
 const seasonPoints = [15, 12, 9, 6, 3];
 const teamPoints = [10, 7, 5];
+const popularClubCatalog = [
+  { name: "Bayern Munich", aliases: ["Bayern", "Bayern Münih", "Bayern München", "FC Bayern München"] },
+  { name: "Borussia Dortmund", aliases: ["Dortmund", "BVB"] },
+  { name: "Bayer Leverkusen", aliases: ["Leverkusen"] },
+  { name: "RB Leipzig", aliases: ["Leipzig"] },
+  { name: "Eintracht Frankfurt", aliases: ["Frankfurt"] },
+  { name: "1899 Hoffenheim", aliases: ["Hoffenheim"] },
+  { name: "VfB Stuttgart", aliases: ["Stuttgart"] },
+  { name: "VfL Wolfsburg", aliases: ["Wolfsburg"] },
+  { name: "FC Schalke 04", aliases: ["Schalke", "Schalke 04"] },
+  { name: "Borussia Monchengladbach", aliases: ["Mönchengladbach", "Monchengladbach", "Gladbach"] },
+  { name: "Real Madrid", aliases: ["Real", "Madrid"] },
+  { name: "Atletico Madrid", aliases: ["Atlético Madrid", "Atletico"] },
+  { name: "FC Barcelona", aliases: ["Barcelona", "Barça", "Barca"] },
+  { name: "Athletic Club", aliases: ["Athletic Bilbao", "Bilbao"] },
+  { name: "Real Sociedad", aliases: ["Sociedad"] },
+  { name: "Real Betis", aliases: ["Betis"] },
+  { name: "Celta Vigo", aliases: ["Celta"] },
+  { name: "Deportivo Alaves", aliases: ["Alaves", "Alavés"] },
+  { name: "RCD Espanyol", aliases: ["Espanyol"] },
+  { name: "RCD Mallorca", aliases: ["Mallorca"] },
+  { name: "Sevilla FC", aliases: ["Sevilla"] },
+  { name: "Villarreal CF", aliases: ["Villarreal"] },
+  { name: "Valencia CF", aliases: ["Valencia"] },
+  { name: "Girona FC", aliases: ["Girona"] },
+  { name: "Getafe CF", aliases: ["Getafe"] },
+  { name: "UD Las Palmas", aliases: ["Las Palmas"] },
+  { name: "CA Osasuna", aliases: ["Osasuna"] },
+  { name: "Rayo Vallecano", aliases: ["Rayo"] },
+];
 
 const elements = {
   reportDataButton:
@@ -193,6 +223,8 @@ function getAllClubs() {
     "FB", "Fener", "Fenerbahçe'de", "Hâlâ Fenerbahçe'de"
   ]);
 
+  popularClubCatalog.forEach((club) => addClub(club.name, null, club.aliases));
+
   return [...clubs.values()].sort((a, b) => a.name.localeCompare(b.name, "tr"));
 }
 
@@ -274,7 +306,10 @@ function showClubSuggestions(input, suggestionsBox) {
 }
 
 function isAcceptedAnswer(input, mainAnswer, aliases = []) {
-  const accepted = [mainAnswer, ...aliases].map(normalise);
+  const catalogClub = getAllClubs().find((club) =>
+    [club.name, ...club.aliases].some((name) => normalise(name) === normalise(mainAnswer))
+  );
+  const accepted = [mainAnswer, ...aliases, ...(catalogClub?.aliases || [])].map(normalise);
   return accepted.includes(normalise(input));
 }
 
@@ -294,7 +329,7 @@ function buildSeasonOptions() {
 }
 
 async function loadPlayers() {
-  const response = await fetch("players.json?v=5");
+  const response = await fetch("players.json?v=6");
   if (!response.ok) {
     throw new Error("Oyuncu verileri yüklenemedi.");
   }
