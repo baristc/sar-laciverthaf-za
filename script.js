@@ -221,7 +221,7 @@ function getAllClubs() {
     addClub(player.departureClub, player.departureClubLogo, player.departureAliases || []);
   });
 
-  addClub("Fenerbahçe", "images/fenerbahce-logo.png", [
+  addClub("Fenerbahçe", "images/fenerbahce-logo.png?v=2", [
     "FB", "Fener", "Fenerbahçe'de", "Hâlâ Fenerbahçe'de"
   ]);
 
@@ -343,7 +343,7 @@ function buildSeasonOptions() {
 
 async function loadPlayers() {
   const [playersResponse, catalogResponse] = await Promise.all([
-    fetch("players.json?v=7"),
+    fetch("players.json?v=8"),
     fetch("club_catalog.json?v=1"),
   ]);
   if (!playersResponse.ok) {

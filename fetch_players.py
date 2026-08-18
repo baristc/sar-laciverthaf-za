@@ -245,6 +245,38 @@ def create_game_records(players: dict[int, dict[str, Any]]) -> tuple[list[dict[s
                 unique_arrivals.append(movement)
         arrivals = unique_arrivals
 
+        # Oyuncunun Fenerbahçe geçmişinde bir kiralama hareketi varsa oyunda
+        # yalnızca ilk geliş dönemi kullanılır. Böylece kiralık dönüşü veya
+        # kiralık sonrası bonservis hareketi yeni bir dönem oluşturmaz.
+        has_loan_history = any(
+            "loan" in str(movement.get("type") or "").lower()
+            and (
+                movement["in_id"] == FENERBAHCE_TEAM_ID
+                or movement["out_id"] == FENERBAHCE_TEAM_ID
+            )
+            for movement in movements
+        )
+        if has_loan_history:
+            arrivals = arrivals[:1]
+
+        # Kiralıktan dönüşleri yeni bir Fenerbahçe dönemi sayma. API bu
+        # hareketleri bazen "Return from loan", bazen de "N/A" olarak
+        # işaretliyor. Bu yüzden hem transfer tipini hem de oyuncunun daha
+        # önce Fenerbahçe'den aynı kulübe gitmiş olmasını kontrol ediyoruz.
+        def is_loan_return(arrival: dict[str, Any]) -> bool:
+            transfer_type = str(arrival.get("type") or "").lower()
+            if "return from loan" in transfer_type or "back from loan" in transfer_type:
+                return True
+
+            return any(
+                movement["out_id"] == FENERBAHCE_TEAM_ID
+                and movement["in_id"] == arrival["out_id"]
+                and movement["date"] < arrival["date"]
+                for movement in movements
+            )
+
+        arrivals = [arrival for arrival in arrivals if not is_loan_return(arrival)]
+
         # Her Fenerbahçe gelişi ayrı bir oyun kaydıdır. Böylece aynı oyuncunun
         # farklı dönemleri birbirine karışmaz.
         for arrival_index, arrival in enumerate(arrivals):
