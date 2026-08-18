@@ -8,6 +8,7 @@ const screens = {
 
 const state = {
   allPlayers: [],
+  clubCatalog: [],
   deck: [],
   names: ["Oyuncu 1", "Oyuncu 2"],
   scores: [0, 0],
@@ -202,16 +203,17 @@ function normalise(value) {
 function getAllClubs() {
   const clubs = new Map();
 
-  function addClub(name, logo, aliases = []) {
+  function addClub(name, logo, aliases = [], sprite = null) {
     if (!name) return;
     const key = normalise(name);
     const existing = clubs.get(key);
     if (existing) {
       existing.logo ||= logo || null;
+      existing.sprite ||= sprite || null;
       existing.aliases = [...new Set([...existing.aliases, ...aliases])];
       return;
     }
-    clubs.set(key, { name, logo: logo || null, aliases: [...aliases] });
+    clubs.set(key, { name, logo: logo || null, aliases: [...aliases], sprite });
   }
 
   state.allPlayers.forEach((player) => {
@@ -224,6 +226,9 @@ function getAllClubs() {
   ]);
 
   popularClubCatalog.forEach((club) => addClub(club.name, null, club.aliases));
+  state.clubCatalog.forEach((club) =>
+    addClub(club.name, club.logo, club.aliases || [], club.sprite || null)
+  );
 
   return [...clubs.values()].sort((a, b) => a.name.localeCompare(b.name, "tr"));
 }
@@ -260,11 +265,19 @@ function showClubSuggestions(input, suggestionsBox) {
             class="suggestion-logo"
           />
         `
-        : `
-          <span class="suggestion-logo-fallback">
-            ${club.name.charAt(0)}
-          </span>
-        `;
+        : club.sprite
+          ? `
+            <span
+              class="suggestion-logo suggestion-logo-sprite"
+              style="--sprite-x: -${club.sprite.x}px; --sprite-y: -${club.sprite.y}px"
+              aria-hidden="true"
+            ></span>
+          `
+          : `
+            <span class="suggestion-logo-fallback">
+              ${club.name.charAt(0)}
+            </span>
+          `;
 
       return `
         <button
@@ -329,11 +342,15 @@ function buildSeasonOptions() {
 }
 
 async function loadPlayers() {
-  const response = await fetch("players.json?v=6");
-  if (!response.ok) {
+  const [playersResponse, catalogResponse] = await Promise.all([
+    fetch("players.json?v=7"),
+    fetch("club_catalog.json?v=1"),
+  ]);
+  if (!playersResponse.ok) {
     throw new Error("Oyuncu verileri yüklenemedi.");
   }
-  state.allPlayers = await response.json();
+  state.allPlayers = await playersResponse.json();
+  state.clubCatalog = catalogResponse.ok ? await catalogResponse.json() : [];
 }
 
 function resetQuestionCard(card, feedback) {

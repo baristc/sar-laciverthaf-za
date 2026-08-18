@@ -1,0 +1,7430 @@
+[
+  {
+    "name": "Accrington Stanley",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "name": "AFC Fylde",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 0
+    }
+  },
+  {
+    "name": "AFC Richmond",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 0
+    }
+  },
+  {
+    "name": "AFC Stoneham",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 0
+    }
+  },
+  {
+    "name": "AFC Telford United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 0
+    }
+  },
+  {
+    "name": "AFC Totton",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 0
+    }
+  },
+  {
+    "name": "AFC Whyteleafe",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 0
+    }
+  },
+  {
+    "name": "AFC Wimbledon",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 0
+    }
+  },
+  {
+    "name": "Aldershot Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 0
+    }
+  },
+  {
+    "name": "Alfreton Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 0
+    }
+  },
+  {
+    "name": "Altrincham FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 0
+    }
+  },
+  {
+    "name": "Arsenal",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 0
+    }
+  },
+  {
+    "name": "Ascot United FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 0
+    }
+  },
+  {
+    "name": "Ashton United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 0
+    }
+  },
+  {
+    "name": "Aston Villa",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 0
+    }
+  },
+  {
+    "name": "Aveley",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 0
+    }
+  },
+  {
+    "name": "Avro FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 0
+    }
+  },
+  {
+    "name": "Bamber Bridge",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 0
+    }
+  },
+  {
+    "name": "Barnet",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 0
+    }
+  },
+  {
+    "name": "Barnsley",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 0
+    }
+  },
+  {
+    "name": "Barrow AFC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 0
+    }
+  },
+  {
+    "name": "Barwell",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 0
+    }
+  },
+  {
+    "name": "Basingstoke Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 0
+    }
+  },
+  {
+    "name": "Bath City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 0
+    }
+  },
+  {
+    "name": "Bedford Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 0
+    }
+  },
+  {
+    "name": "Berkhamsted",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 0
+    }
+  },
+  {
+    "name": "Billericay Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 0
+    }
+  },
+  {
+    "name": "Birmingham City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 0
+    }
+  },
+  {
+    "name": "Blackburn Rovers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 0
+    }
+  },
+  {
+    "name": "Blackpool",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 0
+    }
+  },
+  {
+    "name": "Bolton Wanderers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 34
+    }
+  },
+  {
+    "name": "Boreham Wood",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 34
+    }
+  },
+  {
+    "name": "Boston United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 34
+    }
+  },
+  {
+    "name": "Bournemouth",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 34
+    }
+  },
+  {
+    "name": "Brackley Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 34
+    }
+  },
+  {
+    "name": "Bracknell Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 34
+    }
+  },
+  {
+    "name": "Bradford City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 34
+    }
+  },
+  {
+    "name": "Braintree Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 34
+    }
+  },
+  {
+    "name": "Brentford",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 34
+    }
+  },
+  {
+    "name": "Brentwood Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 34
+    }
+  },
+  {
+    "name": "Brighton",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 34
+    }
+  },
+  {
+    "name": "Bristol City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 34
+    }
+  },
+  {
+    "name": "Bristol Rovers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 34
+    }
+  },
+  {
+    "name": "Bromley",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 34
+    }
+  },
+  {
+    "name": "Burgess Hill Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 34
+    }
+  },
+  {
+    "name": "Burnley",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 34
+    }
+  },
+  {
+    "name": "Burton Albion",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 34
+    }
+  },
+  {
+    "name": "Bury",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 34
+    }
+  },
+  {
+    "name": "Buxton",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 34
+    }
+  },
+  {
+    "name": "Cambridge United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 34
+    }
+  },
+  {
+    "name": "Cardiff City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 34
+    }
+  },
+  {
+    "name": "Carlisle United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 34
+    }
+  },
+  {
+    "name": "Carshalton Athletic",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 34
+    }
+  },
+  {
+    "name": "Charlton Athletic",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 34
+    }
+  },
+  {
+    "name": "Chatham Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 34
+    }
+  },
+  {
+    "name": "Chelmsford City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 34
+    }
+  },
+  {
+    "name": "Chelsea",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 34
+    }
+  },
+  {
+    "name": "Cheltenham Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 34
+    }
+  },
+  {
+    "name": "Chertsey Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 34
+    }
+  },
+  {
+    "name": "Chesham United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 34
+    }
+  },
+  {
+    "name": "Cheshunt",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 68
+    }
+  },
+  {
+    "name": "Chester FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 68
+    }
+  },
+  {
+    "name": "Chesterfield",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 68
+    }
+  },
+  {
+    "name": "Chichester City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 68
+    }
+  },
+  {
+    "name": "Chippenham Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 68
+    }
+  },
+  {
+    "name": "Chorley",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 68
+    }
+  },
+  {
+    "name": "Cleethorpes Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 68
+    }
+  },
+  {
+    "name": "Colchester United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 68
+    }
+  },
+  {
+    "name": "Coventry City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 68
+    }
+  },
+  {
+    "name": "Crawley Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 68
+    }
+  },
+  {
+    "name": "Cray Wanderers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 68
+    }
+  },
+  {
+    "name": "Crewe Alexandra",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 68
+    }
+  },
+  {
+    "name": "Crystal Palace",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 68
+    }
+  },
+  {
+    "name": "Curzon Ashton",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 68
+    }
+  },
+  {
+    "name": "Dagenham & Redbridge",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 68
+    }
+  },
+  {
+    "name": "Darlington",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 68
+    }
+  },
+  {
+    "name": "Dartford",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 68
+    }
+  },
+  {
+    "name": "Derby County",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 68
+    }
+  },
+  {
+    "name": "Didcot Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 68
+    }
+  },
+  {
+    "name": "Diss Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 68
+    }
+  },
+  {
+    "name": "Doncaster Rovers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 68
+    }
+  },
+  {
+    "name": "Dorking Wanderers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 68
+    }
+  },
+  {
+    "name": "Dover Athletic",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 68
+    }
+  },
+  {
+    "name": "Dulwich Hamlet",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 68
+    }
+  },
+  {
+    "name": "Eastbourne Borough",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 68
+    }
+  },
+  {
+    "name": "Eastleigh",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 68
+    }
+  },
+  {
+    "name": "Ebbsfleet United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 68
+    }
+  },
+  {
+    "name": "Emley AFC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 68
+    }
+  },
+  {
+    "name": "Enfield Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 68
+    }
+  },
+  {
+    "name": "Everton",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 68
+    }
+  },
+  {
+    "name": "Evesham United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 102
+    }
+  },
+  {
+    "name": "Exeter City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 102
+    }
+  },
+  {
+    "name": "Farnborough",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 102
+    }
+  },
+  {
+    "name": "Farnham Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 102
+    }
+  },
+  {
+    "name": "FC Halifax Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 102
+    }
+  },
+  {
+    "name": "FC St Helens",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 102
+    }
+  },
+  {
+    "name": "FC United of Manchester",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 102
+    }
+  },
+  {
+    "name": "Fleetwood Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 102
+    }
+  },
+  {
+    "name": "Folkestone Invicta",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 102
+    }
+  },
+  {
+    "name": "Forest Green Rovers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 102
+    }
+  },
+  {
+    "name": "Frome Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 102
+    }
+  },
+  {
+    "name": "Fulham",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 102
+    }
+  },
+  {
+    "name": "Gainsborough Trinity",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 102
+    }
+  },
+  {
+    "name": "Gateshead FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 102
+    }
+  },
+  {
+    "name": "Gillingham",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 102
+    }
+  },
+  {
+    "name": "Gloucester City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 102
+    }
+  },
+  {
+    "name": "Gosport Borough",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 102
+    }
+  },
+  {
+    "name": "Grimsby Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 102
+    }
+  },
+  {
+    "name": "Guiseley AFC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hampton & Richmond Borough",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hanwell Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hanworth Villa",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 102
+    }
+  },
+  {
+    "name": "Harborough Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 102
+    }
+  },
+  {
+    "name": "Harrogate Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hartlepool United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hashtag United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 102
+    }
+  },
+  {
+    "name": "Havant & Waterlooville",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hebburn Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hednesford Town FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hemel Hempstead Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 102
+    }
+  },
+  {
+    "name": "Hereford FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 136
+    }
+  },
+  {
+    "name": "Hornchurch",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 136
+    }
+  },
+  {
+    "name": "Horsham",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 136
+    }
+  },
+  {
+    "name": "Huddersfield Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 136
+    }
+  },
+  {
+    "name": "Hull City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 136
+    }
+  },
+  {
+    "name": "Hyde United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 136
+    }
+  },
+  {
+    "name": "Ilkeston Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 136
+    }
+  },
+  {
+    "name": "Ipswich",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 136
+    }
+  },
+  {
+    "name": "Isthmian League",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 136
+    }
+  },
+  {
+    "name": "Kidderminster Harriers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 136
+    }
+  },
+  {
+    "name": "King's Lynn Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 136
+    }
+  },
+  {
+    "name": "Lancaster City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 136
+    }
+  },
+  {
+    "name": "Leamington",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 136
+    }
+  },
+  {
+    "name": "Leatherhead",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 136
+    }
+  },
+  {
+    "name": "Leeds United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 136
+    }
+  },
+  {
+    "name": "Leek Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 136
+    }
+  },
+  {
+    "name": "Leicester City",
+    "aliases": [
+      "Leicester",
+      "Leicester"
+    ],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 136
+    }
+  },
+  {
+    "name": "Lewes",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 136
+    }
+  },
+  {
+    "name": "Leyton Orient",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 136
+    }
+  },
+  {
+    "name": "Lincoln City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 136
+    }
+  },
+  {
+    "name": "Liverpool FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 136
+    }
+  },
+  {
+    "name": "Luton Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 136
+    }
+  },
+  {
+    "name": "Macclesfield",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 136
+    }
+  },
+  {
+    "name": "Maidenhead United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 136
+    }
+  },
+  {
+    "name": "Maidstone United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 136
+    }
+  },
+  {
+    "name": "Maldon & Tiptree",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 136
+    }
+  },
+  {
+    "name": "Malvern Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 136
+    }
+  },
+  {
+    "name": "Manchester City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 136
+    }
+  },
+  {
+    "name": "Manchester United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 136
+    }
+  },
+  {
+    "name": "Mansfield Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 136
+    }
+  },
+  {
+    "name": "Marine",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 170
+    }
+  },
+  {
+    "name": "Middlesbrough",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 170
+    }
+  },
+  {
+    "name": "Millwall",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 170
+    }
+  },
+  {
+    "name": "Milton Keynes Dons",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 170
+    }
+  },
+  {
+    "name": "Morecambe",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 170
+    }
+  },
+  {
+    "name": "National League North",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 170
+    }
+  },
+  {
+    "name": "National League South",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 170
+    }
+  },
+  {
+    "name": "Newcastle",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 170
+    }
+  },
+  {
+    "name": "Newport County",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 170
+    }
+  },
+  {
+    "name": "Northampton Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 170
+    }
+  },
+  {
+    "name": "Northwich Victoria",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 170
+    }
+  },
+  {
+    "name": "Norwich City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 170
+    }
+  },
+  {
+    "name": "Nottingham Forest",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 170
+    }
+  },
+  {
+    "name": "Notts County",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 170
+    }
+  },
+  {
+    "name": "Oldham Athletic",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 170
+    }
+  },
+  {
+    "name": "Oxford City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 170
+    }
+  },
+  {
+    "name": "Oxford United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 170
+    }
+  },
+  {
+    "name": "Peterborough Sports",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 170
+    }
+  },
+  {
+    "name": "Peterborough United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 170
+    }
+  },
+  {
+    "name": "Pilkington FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 170
+    }
+  },
+  {
+    "name": "Plymouth Argyle",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 170
+    }
+  },
+  {
+    "name": "Plymouth Parkway",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 170
+    }
+  },
+  {
+    "name": "Poole Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 170
+    }
+  },
+  {
+    "name": "Port Vale FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 170
+    }
+  },
+  {
+    "name": "Portsmouth",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 170
+    }
+  },
+  {
+    "name": "Preston North End",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 170
+    }
+  },
+  {
+    "name": "Queens Park Rangers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 170
+    }
+  },
+  {
+    "name": "Quorn",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 170
+    }
+  },
+  {
+    "name": "Radcliffe",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 170
+    }
+  },
+  {
+    "name": "Ramsgate",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 170
+    }
+  },
+  {
+    "name": "Reading",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 204
+    }
+  },
+  {
+    "name": "Redcar Athletic",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 204
+    }
+  },
+  {
+    "name": "Rochdale",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 204
+    }
+  },
+  {
+    "name": "Romford FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 204
+    }
+  },
+  {
+    "name": "Rotherham United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 204
+    }
+  },
+  {
+    "name": "Salford City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 204
+    }
+  },
+  {
+    "name": "Salisbury FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 204
+    }
+  },
+  {
+    "name": "Scarborough Athletic",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 204
+    }
+  },
+  {
+    "name": "Scunthorpe United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 204
+    }
+  },
+  {
+    "name": "Sheffield United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 204
+    }
+  },
+  {
+    "name": "Sheffield Wednesday",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 204
+    }
+  },
+  {
+    "name": "Sholing FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 204
+    }
+  },
+  {
+    "name": "Shrewsbury Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 204
+    }
+  },
+  {
+    "name": "Slough Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 204
+    }
+  },
+  {
+    "name": "Solihull Moors",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 204
+    }
+  },
+  {
+    "name": "South Shields",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 204
+    }
+  },
+  {
+    "name": "Southampton",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 204
+    }
+  },
+  {
+    "name": "Southend United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 204
+    }
+  },
+  {
+    "name": "Southern Football League Premier South",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 204
+    }
+  },
+  {
+    "name": "Southport",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 204
+    }
+  },
+  {
+    "name": "Spalding United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 204
+    }
+  },
+  {
+    "name": "Spennymoor Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 204
+    }
+  },
+  {
+    "name": "St Albans City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 204
+    }
+  },
+  {
+    "name": "St Helens Town FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 204
+    }
+  },
+  {
+    "name": "Stansted FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 204
+    }
+  },
+  {
+    "name": "Stanway Rovers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 204
+    }
+  },
+  {
+    "name": "Stevenage",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 204
+    }
+  },
+  {
+    "name": "Stockport County",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 204
+    }
+  },
+  {
+    "name": "Stockton Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 204
+    }
+  },
+  {
+    "name": "Stoke City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 204
+    }
+  },
+  {
+    "name": "Sunderland",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 238
+    }
+  },
+  {
+    "name": "Sutton United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 238
+    }
+  },
+  {
+    "name": "Swansea City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 238
+    }
+  },
+  {
+    "name": "Swindon Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 238
+    }
+  },
+  {
+    "name": "Tamworth",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 238
+    }
+  },
+  {
+    "name": "Taunton Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 238
+    }
+  },
+  {
+    "name": "Three Bridges",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 238
+    }
+  },
+  {
+    "name": "Tonbridge Angels",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 238
+    }
+  },
+  {
+    "name": "Torquay United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 238
+    }
+  },
+  {
+    "name": "Tottenham",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 306,
+      "y": 238
+    }
+  },
+  {
+    "name": "Tranmere Rovers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 340,
+      "y": 238
+    }
+  },
+  {
+    "name": "Truro City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 374,
+      "y": 238
+    }
+  },
+  {
+    "name": "Uxbridge",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 408,
+      "y": 238
+    }
+  },
+  {
+    "name": "Walsall",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 442,
+      "y": 238
+    }
+  },
+  {
+    "name": "Walton & Hersham",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 476,
+      "y": 238
+    }
+  },
+  {
+    "name": "Warrington Rylands",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 510,
+      "y": 238
+    }
+  },
+  {
+    "name": "Warrington Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 544,
+      "y": 238
+    }
+  },
+  {
+    "name": "Watford",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 578,
+      "y": 238
+    }
+  },
+  {
+    "name": "Wealdstone",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 612,
+      "y": 238
+    }
+  },
+  {
+    "name": "Welling United",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 646,
+      "y": 238
+    }
+  },
+  {
+    "name": "West Bromwich Albion",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 680,
+      "y": 238
+    }
+  },
+  {
+    "name": "West Ham",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 714,
+      "y": 238
+    }
+  },
+  {
+    "name": "Weston Super Mare",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 748,
+      "y": 238
+    }
+  },
+  {
+    "name": "Whitby Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 782,
+      "y": 238
+    }
+  },
+  {
+    "name": "Whitehawk",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 816,
+      "y": 238
+    }
+  },
+  {
+    "name": "Whitley Bay FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 850,
+      "y": 238
+    }
+  },
+  {
+    "name": "Wigan Athletic",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 884,
+      "y": 238
+    }
+  },
+  {
+    "name": "Wimborne Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 918,
+      "y": 238
+    }
+  },
+  {
+    "name": "Wingate & Finchley",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 952,
+      "y": 238
+    }
+  },
+  {
+    "name": "Woking FC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 986,
+      "y": 238
+    }
+  },
+  {
+    "name": "Wolverhampton Wanderers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 0,
+      "y": 272
+    }
+  },
+  {
+    "name": "Workington AFC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 34,
+      "y": 272
+    }
+  },
+  {
+    "name": "Worksop Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 68,
+      "y": 272
+    }
+  },
+  {
+    "name": "Worthing",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 102,
+      "y": 272
+    }
+  },
+  {
+    "name": "Wrexham AFC",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 136,
+      "y": 272
+    }
+  },
+  {
+    "name": "Wycombe Wanderers",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 170,
+      "y": 272
+    }
+  },
+  {
+    "name": "Yate Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 204,
+      "y": 272
+    }
+  },
+  {
+    "name": "Yeovil Town",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 238,
+      "y": 272
+    }
+  },
+  {
+    "name": "York City",
+    "aliases": [],
+    "country": "england",
+    "sprite": {
+      "x": 272,
+      "y": 272
+    }
+  },
+  {
+    "name": "AC Ajaccio",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 306,
+      "y": 272
+    }
+  },
+  {
+    "name": "Amiens SC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 340,
+      "y": 272
+    }
+  },
+  {
+    "name": "Andrézieux-Bouthéon FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 374,
+      "y": 272
+    }
+  },
+  {
+    "name": "Angers",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 408,
+      "y": 272
+    }
+  },
+  {
+    "name": "Angoulême Charente FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 442,
+      "y": 272
+    }
+  },
+  {
+    "name": "Annecy",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 476,
+      "y": 272
+    }
+  },
+  {
+    "name": "AS Cannes",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 510,
+      "y": 272
+    }
+  },
+  {
+    "name": "AS Furiani-Agliani",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 544,
+      "y": 272
+    }
+  },
+  {
+    "name": "AS Monaco",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 578,
+      "y": 272
+    }
+  },
+  {
+    "name": "AS Saint-Étienne",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 612,
+      "y": 272
+    }
+  },
+  {
+    "name": "AS Saint-Priest",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 646,
+      "y": 272
+    }
+  },
+  {
+    "name": "ASC Biesheim",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 680,
+      "y": 272
+    }
+  },
+  {
+    "name": "Aubagne FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 714,
+      "y": 272
+    }
+  },
+  {
+    "name": "Auxerre",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 748,
+      "y": 272
+    }
+  },
+  {
+    "name": "Aviron Bayonnais FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 782,
+      "y": 272
+    }
+  },
+  {
+    "name": "Bordeaux",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 816,
+      "y": 272
+    }
+  },
+  {
+    "name": "Boulogne",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 850,
+      "y": 272
+    }
+  },
+  {
+    "name": "Bourg-en-Bresse Péronnas 01",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 884,
+      "y": 272
+    }
+  },
+  {
+    "name": "Bourges FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 918,
+      "y": 272
+    }
+  },
+  {
+    "name": "Brest",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 952,
+      "y": 272
+    }
+  },
+  {
+    "name": "Canet Roussillon FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 986,
+      "y": 272
+    }
+  },
+  {
+    "name": "Championnat National",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 0,
+      "y": 306
+    }
+  },
+  {
+    "name": "Clermont Foot",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 34,
+      "y": 306
+    }
+  },
+  {
+    "name": "Dijon FCO",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 68,
+      "y": 306
+    }
+  },
+  {
+    "name": "Dinan Léhon FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 102,
+      "y": 306
+    }
+  },
+  {
+    "name": "Dunkerque",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 136,
+      "y": 306
+    }
+  },
+  {
+    "name": "EA Guingamp",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 170,
+      "y": 306
+    }
+  },
+  {
+    "name": "Entente Feignies Aulnoye FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 204,
+      "y": 306
+    }
+  },
+  {
+    "name": "Étoile FC Fréjus Saint-Raphaël",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 238,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Borgo",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 272,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Chambly Oise",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 306,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Chauray",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 340,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Dieppe",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 374,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Fleury 91",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 408,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Limonest Dardilly Saint-Didier",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 442,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Martigues",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 476,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Metz",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 510,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Montlouis",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 544,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Rouen",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 578,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Sochaux-Montbéliard",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 612,
+      "y": 306
+    }
+  },
+  {
+    "name": "FC Versailles",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 646,
+      "y": 306
+    }
+  },
+  {
+    "name": "FCSR Haguenau",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 680,
+      "y": 306
+    }
+  },
+  {
+    "name": "GFA Rumilly Vallières",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 714,
+      "y": 306
+    }
+  },
+  {
+    "name": "GOAL FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 748,
+      "y": 306
+    }
+  },
+  {
+    "name": "Grenoble Foot 38",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 782,
+      "y": 306
+    }
+  },
+  {
+    "name": "GSI Pontivy",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 816,
+      "y": 306
+    }
+  },
+  {
+    "name": "Hauts Lyonnais",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 850,
+      "y": 306
+    }
+  },
+  {
+    "name": "Hyères FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 884,
+      "y": 306
+    }
+  },
+  {
+    "name": "Istres FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 918,
+      "y": 306
+    }
+  },
+  {
+    "name": "LB Châteauroux",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 952,
+      "y": 306
+    }
+  },
+  {
+    "name": "Le Havre AC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 986,
+      "y": 306
+    }
+  },
+  {
+    "name": "Le Mans FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 0,
+      "y": 340
+    }
+  },
+  {
+    "name": "Le Puy Foot 43",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 34,
+      "y": 340
+    }
+  },
+  {
+    "name": "Les Herbiers VF",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 68,
+      "y": 340
+    }
+  },
+  {
+    "name": "Ligue 3",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 102,
+      "y": 340
+    }
+  },
+  {
+    "name": "Lille",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 136,
+      "y": 340
+    }
+  },
+  {
+    "name": "Lorient FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 170,
+      "y": 340
+    }
+  },
+  {
+    "name": "Lyon-La Duchère",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 204,
+      "y": 340
+    }
+  },
+  {
+    "name": "Marseille",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 238,
+      "y": 340
+    }
+  },
+  {
+    "name": "Montpellier",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 272,
+      "y": 340
+    }
+  },
+  {
+    "name": "Nancy Lorraine",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 306,
+      "y": 340
+    }
+  },
+  {
+    "name": "Nantes",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 340,
+      "y": 340
+    }
+  },
+  {
+    "name": "National 1",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 374,
+      "y": 340
+    }
+  },
+  {
+    "name": "Nice",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 408,
+      "y": 340
+    }
+  },
+  {
+    "name": "Nîmes Olympique",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 442,
+      "y": 340
+    }
+  },
+  {
+    "name": "Olympique Lyonnais",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 476,
+      "y": 340
+    }
+  },
+  {
+    "name": "Olympique Saumur FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 510,
+      "y": 340
+    }
+  },
+  {
+    "name": "Paris 13 Atletico",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 544,
+      "y": 340
+    }
+  },
+  {
+    "name": "Paris FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 578,
+      "y": 340
+    }
+  },
+  {
+    "name": "Paris Saint-Germain (PSG)",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 612,
+      "y": 340
+    }
+  },
+  {
+    "name": "Pau FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 646,
+      "y": 340
+    }
+  },
+  {
+    "name": "Quevilly Rouen Métropole",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 680,
+      "y": 340
+    }
+  },
+  {
+    "name": "Racing Club de France",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 714,
+      "y": 340
+    }
+  },
+  {
+    "name": "RC Lens",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 748,
+      "y": 340
+    }
+  },
+  {
+    "name": "RC Roubaix",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 782,
+      "y": 340
+    }
+  },
+  {
+    "name": "RC Strasbourg Alsace",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 816,
+      "y": 340
+    }
+  },
+  {
+    "name": "Red Star FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 850,
+      "y": 340
+    }
+  },
+  {
+    "name": "Rennes",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 884,
+      "y": 340
+    }
+  },
+  {
+    "name": "Rodez AF",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 918,
+      "y": 340
+    }
+  },
+  {
+    "name": "Saint-Colomban Locminé",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 952,
+      "y": 340
+    }
+  },
+  {
+    "name": "Saint-Pryvé Saint-Hilaire FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 986,
+      "y": 340
+    }
+  },
+  {
+    "name": "SAS Épinal",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 0,
+      "y": 374
+    }
+  },
+  {
+    "name": "SC Bastia",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 34,
+      "y": 374
+    }
+  },
+  {
+    "name": "Sporting Club Toulon",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 68,
+      "y": 374
+    }
+  },
+  {
+    "name": "SR Colmar",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 102,
+      "y": 374
+    }
+  },
+  {
+    "name": "Stade Briochin",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 136,
+      "y": 374
+    }
+  },
+  {
+    "name": "Stade de Reims",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 170,
+      "y": 374
+    }
+  },
+  {
+    "name": "Stade Lavallois",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 204,
+      "y": 374
+    }
+  },
+  {
+    "name": "Stade Malherbe Caen",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 238,
+      "y": 374
+    }
+  },
+  {
+    "name": "Tarbes Pyrénées Football",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 272,
+      "y": 374
+    }
+  },
+  {
+    "name": "Toulouse",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 306,
+      "y": 374
+    }
+  },
+  {
+    "name": "Troyes",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 340,
+      "y": 374
+    }
+  },
+  {
+    "name": "Union Sportive du Pays du Valois",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 374,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Avranches",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 408,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Chantilly",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 442,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Concarneau",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 476,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Créteil",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 510,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Granville",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 544,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Orléans",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 578,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Saint-Malo",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 612,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Saint-Maur Lusitanos",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 646,
+      "y": 374
+    }
+  },
+  {
+    "name": "US Thionville Lusitanos",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 680,
+      "y": 374
+    }
+  },
+  {
+    "name": "Valenciennes FC",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 714,
+      "y": 374
+    }
+  },
+  {
+    "name": "Vendée FC La Roche-sur-Yon",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 748,
+      "y": 374
+    }
+  },
+  {
+    "name": "Vendée Poiré-sur-Vie Football",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 782,
+      "y": 374
+    }
+  },
+  {
+    "name": "Villefranche Beaujolais",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 816,
+      "y": 374
+    }
+  },
+  {
+    "name": "Voltigeurs de Châteaubriant",
+    "aliases": [],
+    "country": "france",
+    "sprite": {
+      "x": 850,
+      "y": 374
+    }
+  },
+  {
+    "name": "1. FC Bocholt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 884,
+      "y": 374
+    }
+  },
+  {
+    "name": "1. FC Lokomotive Leipzig",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 918,
+      "y": 374
+    }
+  },
+  {
+    "name": "1. FC Magdeburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 952,
+      "y": 374
+    }
+  },
+  {
+    "name": "1. FC Phönix Lübeck",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 986,
+      "y": 374
+    }
+  },
+  {
+    "name": "1. FC Schweinfurt 05",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 0,
+      "y": 408
+    }
+  },
+  {
+    "name": "3. Liga",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 34,
+      "y": 408
+    }
+  },
+  {
+    "name": "Alemannia Aachen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 68,
+      "y": 408
+    }
+  },
+  {
+    "name": "Altonaer FC 93",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 102,
+      "y": 408
+    }
+  },
+  {
+    "name": "Arminia Bielefeld",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 136,
+      "y": 408
+    }
+  },
+  {
+    "name": "Arminia Hannover",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 170,
+      "y": 408
+    }
+  },
+  {
+    "name": "Atlas Delmenhorst",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 204,
+      "y": 408
+    }
+  },
+  {
+    "name": "Augsburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 238,
+      "y": 408
+    }
+  },
+  {
+    "name": "Bahlinger SC",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 272,
+      "y": 408
+    }
+  },
+  {
+    "name": "Bayer Leverkusen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 306,
+      "y": 408
+    }
+  },
+  {
+    "name": "Bayern Munich",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 340,
+      "y": 408
+    }
+  },
+  {
+    "name": "Bergisch Gladbach 09",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 374,
+      "y": 408
+    }
+  },
+  {
+    "name": "BFC Dynamo",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 408,
+      "y": 408
+    }
+  },
+  {
+    "name": "BFC Preussen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 442,
+      "y": 408
+    }
+  },
+  {
+    "name": "Blau-Weiß Lohne",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 476,
+      "y": 408
+    }
+  },
+  {
+    "name": "Bonner SC",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 510,
+      "y": 408
+    }
+  },
+  {
+    "name": "Borussia Dortmund",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 544,
+      "y": 408
+    }
+  },
+  {
+    "name": "Borussia Mönchengladbach",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 578,
+      "y": 408
+    }
+  },
+  {
+    "name": "Borussia Neunkirchen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 612,
+      "y": 408
+    }
+  },
+  {
+    "name": "Bremer SV",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 646,
+      "y": 408
+    }
+  },
+  {
+    "name": "BSG Chemie Leipzig",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 680,
+      "y": 408
+    }
+  },
+  {
+    "name": "BSV Kickers Emden",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 714,
+      "y": 408
+    }
+  },
+  {
+    "name": "Chemnitzer FC",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 748,
+      "y": 408
+    }
+  },
+  {
+    "name": "Cologne",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 782,
+      "y": 408
+    }
+  },
+  {
+    "name": "DJK Teutonia St. Tönis",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 816,
+      "y": 408
+    }
+  },
+  {
+    "name": "DJK Vilzing",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 850,
+      "y": 408
+    }
+  },
+  {
+    "name": "Dynamo Dresden",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 884,
+      "y": 408
+    }
+  },
+  {
+    "name": "Eimsbütteler TV",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 918,
+      "y": 408
+    }
+  },
+  {
+    "name": "Eintracht Braunschweig",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 952,
+      "y": 408
+    }
+  },
+  {
+    "name": "Eintracht Frankfurt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 986,
+      "y": 408
+    }
+  },
+  {
+    "name": "Energie Cottbus",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 0,
+      "y": 442
+    }
+  },
+  {
+    "name": "Erzgebirge",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 34,
+      "y": 442
+    }
+  },
+  {
+    "name": "Essen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 68,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC 08 Homburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 102,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Astoria Walldorf",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 136,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Bayern Alzenau",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 170,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Eilenburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 204,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Eintracht Norderstedt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 238,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Gütersloh",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 272,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Heidenheim",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 306,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Hertha 03 Zehlendorf",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 340,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Kaiserslautern",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 374,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Memmingen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 408,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Nürnberg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 442,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Rot-Weiß Erfurt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 476,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Viktoria 1889 Berlin",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 510,
+      "y": 442
+    }
+  },
+  {
+    "name": "FC Viktoria Köln",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 544,
+      "y": 442
+    }
+  },
+  {
+    "name": "Fortuna Düsseldorf",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 578,
+      "y": 442
+    }
+  },
+  {
+    "name": "Franz Beckenbauer Supercup",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 612,
+      "y": 442
+    }
+  },
+  {
+    "name": "Freiburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 646,
+      "y": 442
+    }
+  },
+  {
+    "name": "FSV 63 Luckenwalde",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 680,
+      "y": 442
+    }
+  },
+  {
+    "name": "FSV Frankfurt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 714,
+      "y": 442
+    }
+  },
+  {
+    "name": "FSV Schöningen 2011",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 748,
+      "y": 442
+    }
+  },
+  {
+    "name": "FSV Zwickau",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 782,
+      "y": 442
+    }
+  },
+  {
+    "name": "FV Illertissen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 816,
+      "y": 442
+    }
+  },
+  {
+    "name": "Greifswalder FC",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 850,
+      "y": 442
+    }
+  },
+  {
+    "name": "Hallescher",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 884,
+      "y": 442
+    }
+  },
+  {
+    "name": "Hamburger SV",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 918,
+      "y": 442
+    }
+  },
+  {
+    "name": "Hannover 96",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 952,
+      "y": 442
+    }
+  },
+  {
+    "name": "Hansa Rostock",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 986,
+      "y": 442
+    }
+  },
+  {
+    "name": "Hertha BSC",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 0,
+      "y": 476
+    }
+  },
+  {
+    "name": "Hoffenheim",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 34,
+      "y": 476
+    }
+  },
+  {
+    "name": "Holstein Kiel",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 68,
+      "y": 476
+    }
+  },
+  {
+    "name": "HSC Hannover",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 102,
+      "y": 476
+    }
+  },
+  {
+    "name": "Ingolstadt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 136,
+      "y": 476
+    }
+  },
+  {
+    "name": "Jahn",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 170,
+      "y": 476
+    }
+  },
+  {
+    "name": "Jena",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 204,
+      "y": 476
+    }
+  },
+  {
+    "name": "Karlsruher SC",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 238,
+      "y": 476
+    }
+  },
+  {
+    "name": "Kickers Offenbach",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 272,
+      "y": 476
+    }
+  },
+  {
+    "name": "KSV Hessen Kassel",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 306,
+      "y": 476
+    }
+  },
+  {
+    "name": "Lüneburger SK Hansa",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 340,
+      "y": 476
+    }
+  },
+  {
+    "name": "Mainz 05",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 374,
+      "y": 476
+    }
+  },
+  {
+    "name": "MSV Duisburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 408,
+      "y": 476
+    }
+  },
+  {
+    "name": "Osnabrück",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 442,
+      "y": 476
+    }
+  },
+  {
+    "name": "Preußen Münster",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 476,
+      "y": 476
+    }
+  },
+  {
+    "name": "RB Leipzig",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 510,
+      "y": 476
+    }
+  },
+  {
+    "name": "Regionalliga Bayern",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 544,
+      "y": 476
+    }
+  },
+  {
+    "name": "Regionalliga Nord",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 578,
+      "y": 476
+    }
+  },
+  {
+    "name": "Regionalliga Nordost",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 612,
+      "y": 476
+    }
+  },
+  {
+    "name": "Regionalliga Südwest",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 646,
+      "y": 476
+    }
+  },
+  {
+    "name": "Regionalliga West",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 680,
+      "y": 476
+    }
+  },
+  {
+    "name": "Rot-Weiß Oberhausen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 714,
+      "y": 476
+    }
+  },
+  {
+    "name": "RSV Eintracht 1949",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 748,
+      "y": 476
+    }
+  },
+  {
+    "name": "Saarbrücken",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 782,
+      "y": 476
+    }
+  },
+  {
+    "name": "SC Eltersdorf",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 816,
+      "y": 476
+    }
+  },
+  {
+    "name": "SC Fortuna Köln",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 850,
+      "y": 476
+    }
+  },
+  {
+    "name": "SC Paderborn",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 884,
+      "y": 476
+    }
+  },
+  {
+    "name": "SC Verl",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 918,
+      "y": 476
+    }
+  },
+  {
+    "name": "SC Weiche Flensburg 08",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 952,
+      "y": 476
+    }
+  },
+  {
+    "name": "SC Wiedenbrück",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 986,
+      "y": 476
+    }
+  },
+  {
+    "name": "Schalke 04",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 0,
+      "y": 510
+    }
+  },
+  {
+    "name": "SG Barockstadt Fulda-Lehnerz",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 34,
+      "y": 510
+    }
+  },
+  {
+    "name": "SG Sonnenhof Großaspach",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 68,
+      "y": 510
+    }
+  },
+  {
+    "name": "SGV Freiberg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 102,
+      "y": 510
+    }
+  },
+  {
+    "name": "Sportfreunde Lotte",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 136,
+      "y": 510
+    }
+  },
+  {
+    "name": "Sportfreunde Siegen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 170,
+      "y": 510
+    }
+  },
+  {
+    "name": "SpVgg Ansbach 09",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 204,
+      "y": 510
+    }
+  },
+  {
+    "name": "SpVgg Bayreuth",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 238,
+      "y": 510
+    }
+  },
+  {
+    "name": "SpVgg Greuther Fürth",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 272,
+      "y": 510
+    }
+  },
+  {
+    "name": "SpVgg Hankofen-Hailing",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 306,
+      "y": 510
+    }
+  },
+  {
+    "name": "SpVgg Unterhaching",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 340,
+      "y": 510
+    }
+  },
+  {
+    "name": "SSV Jeddeloh II",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 374,
+      "y": 510
+    }
+  },
+  {
+    "name": "SSV Ulm 1846 Fußball",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 408,
+      "y": 510
+    }
+  },
+  {
+    "name": "SSVg Velbert 02",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 442,
+      "y": 510
+    }
+  },
+  {
+    "name": "St Pauli",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 476,
+      "y": 510
+    }
+  },
+  {
+    "name": "Stuttgarter Kickers",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 510,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Babelsberg 03",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 544,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Darmstadt 98",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 578,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Drochtersen/Assel",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 612,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Eintracht Trier 05",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 646,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Elversberg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 680,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Hemelingen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 714,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Meppen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 748,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Rödinghausen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 782,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Sandhausen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 816,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Todesfelde",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 850,
+      "y": 510
+    }
+  },
+  {
+    "name": "SV Waldhof Mannheim",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 884,
+      "y": 510
+    }
+  },
+  {
+    "name": "Tasmania Berlin",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 918,
+      "y": 510
+    }
+  },
+  {
+    "name": "TSG Balingen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 952,
+      "y": 510
+    }
+  },
+  {
+    "name": "TSV 1860 München",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 986,
+      "y": 510
+    }
+  },
+  {
+    "name": "TSV Aubstadt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 0,
+      "y": 544
+    }
+  },
+  {
+    "name": "TSV Buchbach",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 34,
+      "y": 544
+    }
+  },
+  {
+    "name": "TSV Havelse",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 68,
+      "y": 544
+    }
+  },
+  {
+    "name": "TSV Landsberg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 102,
+      "y": 544
+    }
+  },
+  {
+    "name": "TSV Schott Mainz",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 136,
+      "y": 544
+    }
+  },
+  {
+    "name": "TSV Schwaben Augsburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 170,
+      "y": 544
+    }
+  },
+  {
+    "name": "TSV Steinbach Haiger",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 204,
+      "y": 544
+    }
+  },
+  {
+    "name": "Union Berlin",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 238,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfB 1921 Krieschow",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 272,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfB Eichstätt",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 306,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfB Hilden",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 340,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfB Lübeck",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 374,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfB Oldenburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 408,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfB Stuttgart",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 442,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfL Bochum",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 476,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfR Aalen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 510,
+      "y": 544
+    }
+  },
+  {
+    "name": "VfR Mannheim",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 544,
+      "y": 544
+    }
+  },
+  {
+    "name": "Viktoria Aschaffenburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 578,
+      "y": 544
+    }
+  },
+  {
+    "name": "VSG Altglienicke",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 612,
+      "y": 544
+    }
+  },
+  {
+    "name": "Wacker Burghausen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 646,
+      "y": 544
+    }
+  },
+  {
+    "name": "Wattenscheid 09",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 680,
+      "y": 544
+    }
+  },
+  {
+    "name": "Werder Bremen",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 714,
+      "y": 544
+    }
+  },
+  {
+    "name": "Westfalia Rhynern",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 748,
+      "y": 544
+    }
+  },
+  {
+    "name": "Wiesbaden",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 782,
+      "y": 544
+    }
+  },
+  {
+    "name": "Wolfsburg",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 816,
+      "y": 544
+    }
+  },
+  {
+    "name": "Wuppertaler SV",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 850,
+      "y": 544
+    }
+  },
+  {
+    "name": "Würzburger Kickers",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 884,
+      "y": 544
+    }
+  },
+  {
+    "name": "ZFC Meuselwitz",
+    "aliases": [],
+    "country": "germany",
+    "sprite": {
+      "x": 918,
+      "y": 544
+    }
+  },
+  {
+    "name": "AC Carpi",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 544
+    }
+  },
+  {
+    "name": "AC ChievoVerona",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 544
+    }
+  },
+  {
+    "name": "AC Crema 1908",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Este",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Leon",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Mestre",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Monza",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Nardò",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Prato",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Sant'Angelo 1907",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Tuttocuoio 1957 San Miniato",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 578
+    }
+  },
+  {
+    "name": "AC Vigasio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 578
+    }
+  },
+  {
+    "name": "ACD Campodarsego Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 578
+    }
+  },
+  {
+    "name": "Acerrana 1926",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 578
+    }
+  },
+  {
+    "name": "Acireale Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 578
+    }
+  },
+  {
+    "name": "ACR Messina",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 578
+    }
+  },
+  {
+    "name": "Afragolese 1944",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 578
+    }
+  },
+  {
+    "name": "AlbinoLeffe",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 578
+    }
+  },
+  {
+    "name": "Alcione",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 578
+    }
+  },
+  {
+    "name": "Ancona",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 578
+    }
+  },
+  {
+    "name": "Anzio Calcio 1924",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 578
+    }
+  },
+  {
+    "name": "Aquila Montevarchi 1902",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 578
+    }
+  },
+  {
+    "name": "Arezzo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 578
+    }
+  },
+  {
+    "name": "Ars et Labor Ferrara Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 578
+    }
+  },
+  {
+    "name": "Ascoli",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 578
+    }
+  },
+  {
+    "name": "ASD Cannara",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 578
+    }
+  },
+  {
+    "name": "ASD Cjarlins Muzane",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 578
+    }
+  },
+  {
+    "name": "Asd Ferrandina 17890",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 578
+    }
+  },
+  {
+    "name": "ASD Monastir 1983",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 578
+    }
+  },
+  {
+    "name": "ASD Real Monterotondo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 578
+    }
+  },
+  {
+    "name": "ASD San Luigi Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 578
+    }
+  },
+  {
+    "name": "ASD Sasso Marconi 1924",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 578
+    }
+  },
+  {
+    "name": "ASD Tropical Coriano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 612
+    }
+  },
+  {
+    "name": "Asti",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 612
+    }
+  },
+  {
+    "name": "Atalanta",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 612
+    }
+  },
+  {
+    "name": "Athletic Club Palermo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 612
+    }
+  },
+  {
+    "name": "Atletico Ascoli",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 612
+    }
+  },
+  {
+    "name": "Atletico Lodigiani",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 612
+    }
+  },
+  {
+    "name": "Audace Cerignola",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 612
+    }
+  },
+  {
+    "name": "AVC Vogherese 1919",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 612
+    }
+  },
+  {
+    "name": "AZ Picerno",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 612
+    }
+  },
+  {
+    "name": "Bari",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 612
+    }
+  },
+  {
+    "name": "Barletta 1922",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 612
+    }
+  },
+  {
+    "name": "Benevento",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 612
+    }
+  },
+  {
+    "name": "Biellese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 612
+    }
+  },
+  {
+    "name": "Bologna",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 612
+    }
+  },
+  {
+    "name": "Bra",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 612
+    }
+  },
+  {
+    "name": "Brescia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 612
+    }
+  },
+  {
+    "name": "Brian Lignano Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 612
+    }
+  },
+  {
+    "name": "Budoni Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 612
+    }
+  },
+  {
+    "name": "Cagliari",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 612
+    }
+  },
+  {
+    "name": "Cairese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 612
+    }
+  },
+  {
+    "name": "Calcio Brusaporto",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 612
+    }
+  },
+  {
+    "name": "Calcio Caldiero Terme",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 612
+    }
+  },
+  {
+    "name": "Calcio Desenzano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 612
+    }
+  },
+  {
+    "name": "Camaiore Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 612
+    }
+  },
+  {
+    "name": "Campobasso",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 612
+    }
+  },
+  {
+    "name": "Carrarese Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 612
+    }
+  },
+  {
+    "name": "Casarano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 612
+    }
+  },
+  {
+    "name": "Casertana",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 612
+    }
+  },
+  {
+    "name": "Cassino Calcio 1924",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 612
+    }
+  },
+  {
+    "name": "Castelfidardo Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 612
+    }
+  },
+  {
+    "name": "Castrum Favara",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 646
+    }
+  },
+  {
+    "name": "Catania",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 646
+    }
+  },
+  {
+    "name": "Catanzaro",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 646
+    }
+  },
+  {
+    "name": "Cavese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 646
+    }
+  },
+  {
+    "name": "Celle Varazze",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 646
+    }
+  },
+  {
+    "name": "Cesena FC",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 646
+    }
+  },
+  {
+    "name": "Chieti FC 1922",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 646
+    }
+  },
+  {
+    "name": "Chisola",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 646
+    }
+  },
+  {
+    "name": "Città di Fasano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 646
+    }
+  },
+  {
+    "name": "Cittadella",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 646
+    }
+  },
+  {
+    "name": "Cittadella Vis Modena",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 646
+    }
+  },
+  {
+    "name": "Club Milano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 646
+    }
+  },
+  {
+    "name": "Como 1907",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 646
+    }
+  },
+  {
+    "name": "Coppa Italia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 646
+    }
+  },
+  {
+    "name": "Correggese Calcio 1948",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 646
+    }
+  },
+  {
+    "name": "COS Sarrabus Ogliastra",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 646
+    }
+  },
+  {
+    "name": "Cosenza",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 646
+    }
+  },
+  {
+    "name": "Cremonese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 646
+    }
+  },
+  {
+    "name": "Crotone",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 646
+    }
+  },
+  {
+    "name": "CS Trevigliese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 646
+    }
+  },
+  {
+    "name": "Cynthialbalonga Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 646
+    }
+  },
+  {
+    "name": "Derthona",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 646
+    }
+  },
+  {
+    "name": "Dolomiti Bellunesi",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 646
+    }
+  },
+  {
+    "name": "Empoli",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 646
+    }
+  },
+  {
+    "name": "Enna Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 646
+    }
+  },
+  {
+    "name": "FBC Gravina",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 646
+    }
+  },
+  {
+    "name": "FC Arzignano Valchiampo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 646
+    }
+  },
+  {
+    "name": "FC Bassano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 646
+    }
+  },
+  {
+    "name": "FC Calvi Noale",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 646
+    }
+  },
+  {
+    "name": "FC Francavilla",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 646
+    }
+  },
+  {
+    "name": "FC Legnago Salus",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 680
+    }
+  },
+  {
+    "name": "FC Obermais",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 680
+    }
+  },
+  {
+    "name": "FC Pistoiese 1921",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 680
+    }
+  },
+  {
+    "name": "FC Pompei",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 680
+    }
+  },
+  {
+    "name": "FC Pro Palazzolo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 680
+    }
+  },
+  {
+    "name": "FC Pro Vercelli 1892",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 680
+    }
+  },
+  {
+    "name": "FC Sangiuliano City Nova",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 680
+    }
+  },
+  {
+    "name": "FC Scandicci 1908",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 680
+    }
+  },
+  {
+    "name": "FCD Conegliano 1907",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 680
+    }
+  },
+  {
+    "name": "Feralpisalò",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 680
+    }
+  },
+  {
+    "name": "Fidelis Andria",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 680
+    }
+  },
+  {
+    "name": "Fiorentina",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 680
+    }
+  },
+  {
+    "name": "Flaminia Civita Castellana",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 680
+    }
+  },
+  {
+    "name": "Foggia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 680
+    }
+  },
+  {
+    "name": "Folgore Caratese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 680
+    }
+  },
+  {
+    "name": "Foligno Calcio 1928",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 680
+    }
+  },
+  {
+    "name": "Forlì FC",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 680
+    }
+  },
+  {
+    "name": "Fossombrone Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 680
+    }
+  },
+  {
+    "name": "Frosinone Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 680
+    }
+  },
+  {
+    "name": "Gela Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 680
+    }
+  },
+  {
+    "name": "Gelbison Cilento",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 680
+    }
+  },
+  {
+    "name": "Genoa",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 680
+    }
+  },
+  {
+    "name": "Ghiviborgo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 680
+    }
+  },
+  {
+    "name": "Giana Erminio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 680
+    }
+  },
+  {
+    "name": "Giugliano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 680
+    }
+  },
+  {
+    "name": "Giulianova Calcio 1924",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 680
+    }
+  },
+  {
+    "name": "Gozzano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 680
+    }
+  },
+  {
+    "name": "Gubbio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 680
+    }
+  },
+  {
+    "name": "Guidonia Montecelio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 680
+    }
+  },
+  {
+    "name": "Hellas Verona",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 680
+    }
+  },
+  {
+    "name": "Heraclea Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 714
+    }
+  },
+  {
+    "name": "Igea Virtus Barcellona",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 714
+    }
+  },
+  {
+    "name": "Imolese Calcio 1919",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 714
+    }
+  },
+  {
+    "name": "Imperia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 714
+    }
+  },
+  {
+    "name": "Inter",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 714
+    }
+  },
+  {
+    "name": "Ischia Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 714
+    }
+  },
+  {
+    "name": "Juve Stabia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 714
+    }
+  },
+  {
+    "name": "Juventus",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 714
+    }
+  },
+  {
+    "name": "L'Aquila 1927",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 714
+    }
+  },
+  {
+    "name": "Latina Calcio 1932",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 714
+    }
+  },
+  {
+    "name": "Lavagnese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 714
+    }
+  },
+  {
+    "name": "Lazio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 714
+    }
+  },
+  {
+    "name": "Lecce",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 714
+    }
+  },
+  {
+    "name": "Lecco",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 714
+    }
+  },
+  {
+    "name": "Lentigione Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 714
+    }
+  },
+  {
+    "name": "Ligorna",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 714
+    }
+  },
+  {
+    "name": "Livorno",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 714
+    }
+  },
+  {
+    "name": "Lumezzane",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 714
+    }
+  },
+  {
+    "name": "Luparense FC",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 714
+    }
+  },
+  {
+    "name": "Maceratese 1922",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 714
+    }
+  },
+  {
+    "name": "Manfredonia Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 714
+    }
+  },
+  {
+    "name": "Mantova 1911",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 714
+    }
+  },
+  {
+    "name": "Martina Calcio 1947",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 714
+    }
+  },
+  {
+    "name": "Milan",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 714
+    }
+  },
+  {
+    "name": "Modena",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 714
+    }
+  },
+  {
+    "name": "Monopoli",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 714
+    }
+  },
+  {
+    "name": "Montespaccato Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 714
+    }
+  },
+  {
+    "name": "Napoli",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 714
+    }
+  },
+  {
+    "name": "Nissa FC",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 714
+    }
+  },
+  {
+    "name": "Nocerina 1910",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 714
+    }
+  },
+  {
+    "name": "Nola 1925",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 748
+    }
+  },
+  {
+    "name": "Notaresco Calcio 1924",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 748
+    }
+  },
+  {
+    "name": "Novara",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 748
+    }
+  },
+  {
+    "name": "NovaRomentin",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 748
+    }
+  },
+  {
+    "name": "Nuova Sondrio Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 748
+    }
+  },
+  {
+    "name": "Olbia Calcio 1905",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 748
+    }
+  },
+  {
+    "name": "Oltrepò FBC",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 748
+    }
+  },
+  {
+    "name": "Orvietana Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 748
+    }
+  },
+  {
+    "name": "Ospitaletto",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 748
+    }
+  },
+  {
+    "name": "Ostiamare",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 748
+    }
+  },
+  {
+    "name": "Padova",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 748
+    }
+  },
+  {
+    "name": "Paganese Calcio 1926",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 748
+    }
+  },
+  {
+    "name": "Palermo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 748
+    }
+  },
+  {
+    "name": "Parma",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 748
+    }
+  },
+  {
+    "name": "Paternò Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pavia Calcio 1911",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pergolettese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 748
+    }
+  },
+  {
+    "name": "Perugia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pescara",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 748
+    }
+  },
+  {
+    "name": "Piacenza Calcio 1919",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pianese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pineto",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pisa",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pontedera",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 748
+    }
+  },
+  {
+    "name": "Portogruaro Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 748
+    }
+  },
+  {
+    "name": "Potenza",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pro Patria",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 748
+    }
+  },
+  {
+    "name": "Pro Sesto 1913",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 748
+    }
+  },
+  {
+    "name": "Ragusa Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 748
+    }
+  },
+  {
+    "name": "Ravenna",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 748
+    }
+  },
+  {
+    "name": "Real Calepina",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 782
+    }
+  },
+  {
+    "name": "Real Normanna",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 782
+    }
+  },
+  {
+    "name": "Reggiana",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 782
+    }
+  },
+  {
+    "name": "Reggina 1914",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 782
+    }
+  },
+  {
+    "name": "Renate",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 782
+    }
+  },
+  {
+    "name": "Roma",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 782
+    }
+  },
+  {
+    "name": "Rovato Vertovese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 782
+    }
+  },
+  {
+    "name": "Salernitana",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 782
+    }
+  },
+  {
+    "name": "Saluzzo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sambenedettese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sambiase Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sammaurese Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sampdoria",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 782
+    }
+  },
+  {
+    "name": "San Donato Tavarnelle",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 782
+    }
+  },
+  {
+    "name": "San Marino Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sancataldese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sanremese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sarnese 1926",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sassari Calcio Latte Dolce",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sassuolo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 782
+    }
+  },
+  {
+    "name": "Savoia 1908",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 782
+    }
+  },
+  {
+    "name": "Scafatese Calcio 1922",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 782
+    }
+  },
+  {
+    "name": "SCD Progresso Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 782
+    }
+  },
+  {
+    "name": "Seravezza Pozzi Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 782
+    }
+  },
+  {
+    "name": "Serie D",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sestri Levante",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 782
+    }
+  },
+  {
+    "name": "Siena",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 782
+    }
+  },
+  {
+    "name": "Siracusa",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sora Calcio 1907",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 782
+    }
+  },
+  {
+    "name": "Sorrento",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 782
+    }
+  },
+  {
+    "name": "SPAL",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 816
+    }
+  },
+  {
+    "name": "Spezia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 816
+    }
+  },
+  {
+    "name": "Sporting Club Trestina",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 816
+    }
+  },
+  {
+    "name": "SS Milazzo",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 816
+    }
+  },
+  {
+    "name": "Suditrol",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 816
+    }
+  },
+  {
+    "name": "Tau Calcio Altopascio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 816
+    }
+  },
+  {
+    "name": "Team Altamura",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 816
+    }
+  },
+  {
+    "name": "Teramo Calcio 1913",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 816
+    }
+  },
+  {
+    "name": "Termoli Calcio 1920",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 816
+    }
+  },
+  {
+    "name": "Ternana",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 816
+    }
+  },
+  {
+    "name": "Terranuova Traiana",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 816
+    }
+  },
+  {
+    "name": "Torino",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 816
+    }
+  },
+  {
+    "name": "Torres",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 816
+    }
+  },
+  {
+    "name": "Trapani",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 816
+    }
+  },
+  {
+    "name": "Trastevere Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 816
+    }
+  },
+  {
+    "name": "Trento",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 816
+    }
+  },
+  {
+    "name": "Treviso FBC 1993",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 816
+    }
+  },
+  {
+    "name": "Triestina",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 816
+    }
+  },
+  {
+    "name": "Udinese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 816
+    }
+  },
+  {
+    "name": "Union Brescia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 816
+    }
+  },
+  {
+    "name": "Union Clodiense Chioggia FC",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 816
+    }
+  },
+  {
+    "name": "Unione La Rocca Altavilla",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 714,
+      "y": 816
+    }
+  },
+  {
+    "name": "UniPomezia 1938",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 748,
+      "y": 816
+    }
+  },
+  {
+    "name": "US Avellino 1912",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 782,
+      "y": 816
+    }
+  },
+  {
+    "name": "US Follonica Gavorrano",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 816,
+      "y": 816
+    }
+  },
+  {
+    "name": "US Grosseto 1912",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 850,
+      "y": 816
+    }
+  },
+  {
+    "name": "US Palmese 1912",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 884,
+      "y": 816
+    }
+  },
+  {
+    "name": "US Poggibonsi",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 918,
+      "y": 816
+    }
+  },
+  {
+    "name": "US Recanatese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 952,
+      "y": 816
+    }
+  },
+  {
+    "name": "USD Adriese 1906",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 986,
+      "y": 816
+    }
+  },
+  {
+    "name": "USD Breno",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 0,
+      "y": 850
+    }
+  },
+  {
+    "name": "USD Casatese Merate",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 34,
+      "y": 850
+    }
+  },
+  {
+    "name": "USD Castellanzese 1921",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 68,
+      "y": 850
+    }
+  },
+  {
+    "name": "USD Scanzorosciate Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 102,
+      "y": 850
+    }
+  },
+  {
+    "name": "Vado",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 136,
+      "y": 850
+    }
+  },
+  {
+    "name": "Valenzana Mado",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 170,
+      "y": 850
+    }
+  },
+  {
+    "name": "Valmontone 1921",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 204,
+      "y": 850
+    }
+  },
+  {
+    "name": "Varese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 238,
+      "y": 850
+    }
+  },
+  {
+    "name": "Varesina Calcio",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 272,
+      "y": 850
+    }
+  },
+  {
+    "name": "Venezia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 306,
+      "y": 850
+    }
+  },
+  {
+    "name": "Vibonese",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 340,
+      "y": 850
+    }
+  },
+  {
+    "name": "Vicenza",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 374,
+      "y": 850
+    }
+  },
+  {
+    "name": "Vigor Lamezia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 408,
+      "y": 850
+    }
+  },
+  {
+    "name": "Vigor Senigallia",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 442,
+      "y": 850
+    }
+  },
+  {
+    "name": "Villa Valle",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 476,
+      "y": 850
+    }
+  },
+  {
+    "name": "Virtus CiseranoBergamo 1909",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 510,
+      "y": 850
+    }
+  },
+  {
+    "name": "Virtus Entella",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 544,
+      "y": 850
+    }
+  },
+  {
+    "name": "Virtus Francavilla",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 578,
+      "y": 850
+    }
+  },
+  {
+    "name": "Virtus Verona",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 612,
+      "y": 850
+    }
+  },
+  {
+    "name": "Vis Pesaro",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 646,
+      "y": 850
+    }
+  },
+  {
+    "name": "Vivi Altotevere Sansepolcro",
+    "aliases": [],
+    "country": "italy",
+    "sprite": {
+      "x": 680,
+      "y": 850
+    }
+  },
+  {
+    "name": "ACV Assen",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 714,
+      "y": 850
+    }
+  },
+  {
+    "name": "ADO Den Haag",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 748,
+      "y": 850
+    }
+  },
+  {
+    "name": "AFC Amsterdam",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 782,
+      "y": 850
+    }
+  },
+  {
+    "name": "AFC DWS",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 816,
+      "y": 850
+    }
+  },
+  {
+    "name": "Ajax",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 850,
+      "y": 850
+    }
+  },
+  {
+    "name": "Almere City FC",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 884,
+      "y": 850
+    }
+  },
+  {
+    "name": "AZ Alkmaar",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 918,
+      "y": 850
+    }
+  },
+  {
+    "name": "BVV Barendrecht",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 952,
+      "y": 850
+    }
+  },
+  {
+    "name": "De Graafschap",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 986,
+      "y": 850
+    }
+  },
+  {
+    "name": "De Treffers",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 0,
+      "y": 884
+    }
+  },
+  {
+    "name": "Excelsior Maassluis",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 34,
+      "y": 884
+    }
+  },
+  {
+    "name": "Excelsior Rotterdam",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 68,
+      "y": 884
+    }
+  },
+  {
+    "name": "FC Den Bosch",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 102,
+      "y": 884
+    }
+  },
+  {
+    "name": "FC Dordrecht",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 136,
+      "y": 884
+    }
+  },
+  {
+    "name": "FC Eindhoven",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 170,
+      "y": 884
+    }
+  },
+  {
+    "name": "FC Emmen",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 204,
+      "y": 884
+    }
+  },
+  {
+    "name": "FC Groningen",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 238,
+      "y": 884
+    }
+  },
+  {
+    "name": "FC Utrecht",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 272,
+      "y": 884
+    }
+  },
+  {
+    "name": "Feyenoord",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 306,
+      "y": 884
+    }
+  },
+  {
+    "name": "Fortuna Sittard",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 340,
+      "y": 884
+    }
+  },
+  {
+    "name": "Go Ahead Eagles",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 374,
+      "y": 884
+    }
+  },
+  {
+    "name": "GVVV",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 408,
+      "y": 884
+    }
+  },
+  {
+    "name": "Helmond Sport",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 442,
+      "y": 884
+    }
+  },
+  {
+    "name": "Heracles Almelo",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 476,
+      "y": 884
+    }
+  },
+  {
+    "name": "HHC Hardenberg",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 510,
+      "y": 884
+    }
+  },
+  {
+    "name": "HSV Hoek",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 544,
+      "y": 884
+    }
+  },
+  {
+    "name": "IJsselmeervogels",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 578,
+      "y": 884
+    }
+  },
+  {
+    "name": "Koninklijke HFC",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 612,
+      "y": 884
+    }
+  },
+  {
+    "name": "Kozakken Boys",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 646,
+      "y": 884
+    }
+  },
+  {
+    "name": "MVV Maastricht",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 680,
+      "y": 884
+    }
+  },
+  {
+    "name": "N.E.C. Nijmegen",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 714,
+      "y": 884
+    }
+  },
+  {
+    "name": "NAC Breda",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 748,
+      "y": 884
+    }
+  },
+  {
+    "name": "PEC Zwolle",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 782,
+      "y": 884
+    }
+  },
+  {
+    "name": "PSV Eindhoven",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 816,
+      "y": 884
+    }
+  },
+  {
+    "name": "Quick Boys",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 850,
+      "y": 884
+    }
+  },
+  {
+    "name": "Rijnsburgse Boys",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 884,
+      "y": 884
+    }
+  },
+  {
+    "name": "RKAV Volendam",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 918,
+      "y": 884
+    }
+  },
+  {
+    "name": "RKC Waalwijk",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 952,
+      "y": 884
+    }
+  },
+  {
+    "name": "Roda JC Kerkrade",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 986,
+      "y": 884
+    }
+  },
+  {
+    "name": "ROHDA Raalte",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 0,
+      "y": 918
+    }
+  },
+  {
+    "name": "SC Cambuur",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 34,
+      "y": 918
+    }
+  },
+  {
+    "name": "sc Heerenveen",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 68,
+      "y": 918
+    }
+  },
+  {
+    "name": "Sparta Rotterdam",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 102,
+      "y": 918
+    }
+  },
+  {
+    "name": "SV Spakenburg",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 136,
+      "y": 918
+    }
+  },
+  {
+    "name": "Telstar",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 170,
+      "y": 918
+    }
+  },
+  {
+    "name": "TOP Oss",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 204,
+      "y": 918
+    }
+  },
+  {
+    "name": "Tweede divisie",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 238,
+      "y": 918
+    }
+  },
+  {
+    "name": "Twente",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 272,
+      "y": 918
+    }
+  },
+  {
+    "name": "Vitesse",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 306,
+      "y": 918
+    }
+  },
+  {
+    "name": "Volendam",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 340,
+      "y": 918
+    }
+  },
+  {
+    "name": "VV Katwijk",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 374,
+      "y": 918
+    }
+  },
+  {
+    "name": "VV Kloetinge",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 408,
+      "y": 918
+    }
+  },
+  {
+    "name": "VVV-Venlo",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 442,
+      "y": 918
+    }
+  },
+  {
+    "name": "Willem II",
+    "aliases": [],
+    "country": "netherlands",
+    "sprite": {
+      "x": 476,
+      "y": 918
+    }
+  }
+]

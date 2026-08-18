@@ -602,6 +602,15 @@ select option {
   background: rgba(255, 255, 255, 0.08);
 }
 
+.suggestion-logo-sprite {
+  display: block;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.08);
+  background-image: url("images/club-badges.png?v=1");
+  background-repeat: no-repeat;
+  background-position: var(--sprite-x) var(--sprite-y);
+}
+
 .suggestion-logo-fallback {
   display: grid;
   place-items: center;
