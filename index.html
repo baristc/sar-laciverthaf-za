@@ -100,7 +100,7 @@
           <div class="mode-benefits"><span>✓ Tur sınırı yok</span><span>✓ Kademeli hedefler</span><span>✓ Kalıcı rekor</span></div>
         </div>
         <div class="mode-form-card">
-          <label>Oyuncu adın<input id="soloNameInput" type="text" maxlength="18" placeholder="Adını yaz" value="Oyuncu" /></label>
+          <label>Oyuncu adın<input id="soloNameInput" type="text" maxlength="18" /></label>
           <div class="mission-preview"><span>İlk 5 soru hedefi</span><strong>50 puan</strong></div>
           <div class="best-score-chip">En yüksek skor <strong id="soloBestScore">0</strong></div>
           <button id="startSoloButton" class="primary-button" type="button">Sonsuz oyunu başlat</button>
@@ -115,8 +115,8 @@
           <p>İki oyuncu sırayla aynı cihazda oynar. Ekranı birbirinize teslim ederek en yüksek puanı toplamaya çalışın.</p>
         </div>
         <form id="setupForm" class="mode-form-card">
-          <label>Oyuncu 1<input id="playerOneInput" type="text" maxlength="18" value="Oyuncu 1" required /></label>
-          <label>Oyuncu 2<input id="playerTwoInput" type="text" maxlength="18" value="Oyuncu 2" required /></label>
+          <label>Oyuncu 1<input id="playerOneInput" type="text" maxlength="18" required /></label>
+          <label>Oyuncu 2<input id="playerTwoInput" type="text" maxlength="18" required /></label>
           <label>Kişi başı tur<select id="roundCountInput"><option value="3">3 tur</option><option value="5" selected>5 tur</option><option value="10">10 tur</option></select></label>
           <button class="primary-button" type="submit">Düelloyu başlat</button>
         </form>
@@ -130,7 +130,7 @@
           <p>Bir oyuncu oda oluşturur ve altı haneli kodu paylaşır. Rakibi aynı kodla oyuna katılır.</p>
         </div>
         <div class="mode-form-card online-controls">
-          <label>Oyuncu adın<input id="onlineNameInput" type="text" maxlength="18" placeholder="Adını yaz" /></label>
+          <label>Oyuncu adın<input id="onlineNameInput" type="text" maxlength="18" /></label>
           <label id="onlineRoundLabel">Kişi başı tur<select id="onlineRoundCount"><option value="3">3 tur</option><option value="5" selected>5 tur</option><option value="10">10 tur</option></select></label>
           <button id="createRoomButton" class="primary-button" type="button">Oda oluştur</button>
           <div class="room-divider"><span>veya</span></div>
