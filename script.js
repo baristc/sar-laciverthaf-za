@@ -289,7 +289,7 @@ function buildSeasonOptions() {
 }
 
 async function loadPlayers() {
-  const response = await fetch("players.json");
+  const response = await fetch("players.json?v=3");
   if (!response.ok) {
     throw new Error("Oyuncu verileri yüklenemedi.");
   }
