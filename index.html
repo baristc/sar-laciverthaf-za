@@ -28,7 +28,7 @@
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 
 <body>
@@ -79,159 +79,74 @@
 
     <!-- OYUN KURULUM EKRANI -->
     <section id="setupScreen" class="screen active">
+      <div class="mode-hero">
+        <p class="eyebrow">SARI LACİVERT HAFIZA</p>
+        <h2>Nasıl oynamak istediğini seç.</h2>
+        <p>Tek başına hedefleri aş, aynı bilgisayarda düello yap veya oda koduyla çevrimiçi kapış.</p>
+      </div>
 
-      <div class="hero-card">
+      <nav class="mode-tabs" aria-label="Oyun modu seçimi">
+        <button class="mode-tab active" type="button" data-mode-tab="solo"><span>01</span>Tek Başına</button>
+        <button class="mode-tab" type="button" data-mode-tab="local"><span>02</span>Aynı Bilgisayar</button>
+        <button class="mode-tab" type="button" data-mode-tab="online"><span>03</span>Çevrimiçi</button>
+      </nav>
 
-        <div class="hero-copy">
-          <span class="pill">
-            Tek başına, yan yana veya çevrimiçi
-          </span>
-
-          <h2>
-            Transfer hafızanı test et, puanını yükselt.
-          </h2>
-
-          <p>
-            Futbolcunun Fenerbahçe'ye geldiği sezonu,
-            geldiği takımı ve ayrıldığı takımı tahmin et.
-          </p>
+      <div class="mode-panel active" data-mode-panel="solo">
+        <div class="mode-panel-copy">
+          <span class="mode-icon">★</span>
+          <p class="eyebrow">SONSUZ HEDEF MODU</p>
+          <h2>Hedefi geç, yoluna devam et.</h2>
+          <p>Her 5 soruda bir puanın kontrol edilir. İlk hedef 50 puan; ilerledikçe hedef yükselir. Hedefin altında kalırsan elenirsin.</p>
+          <div class="mode-benefits"><span>✓ Tur sınırı yok</span><span>✓ Kademeli hedefler</span><span>✓ Kalıcı rekor</span></div>
         </div>
+        <div class="mode-form-card">
+          <label>Oyuncu adın<input id="soloNameInput" type="text" maxlength="18" placeholder="Adını yaz" value="Oyuncu" /></label>
+          <div class="mission-preview"><span>İlk 5 soru hedefi</span><strong>50 puan</strong></div>
+          <div class="best-score-chip">En yüksek skor <strong id="soloBestScore">0</strong></div>
+          <button id="startSoloButton" class="primary-button" type="button">Sonsuz oyunu başlat</button>
+        </div>
+      </div>
 
-        <form id="setupForm" class="setup-form">
-
-          <label>
-            Oyuncu 1
-
-            <input
-              id="playerOneInput"
-              type="text"
-              maxlength="18"
-              value="Oyuncu 1"
-              required
-            />
-          </label>
-
-          <label>
-            Oyuncu 2
-
-            <input
-              id="playerTwoInput"
-              type="text"
-              maxlength="18"
-              value="Oyuncu 2"
-              required
-            />
-          </label>
-
-          <label>
-            Kişi başı tur
-
-            <select id="roundCountInput">
-              <option value="3">3 tur</option>
-              <option value="5" selected>5 tur</option>
-              <option value="10">10 tur</option>
-            </select>
-          </label>
-
-          <button
-            class="primary-button"
-            type="submit"
-          >
-            Düelloyu başlat
-          </button>
-
+      <div class="mode-panel" data-mode-panel="local" hidden>
+        <div class="mode-panel-copy">
+          <span class="mode-icon">VS</span>
+          <p class="eyebrow">AYNI BİLGİSAYAR</p>
+          <h2>Yan yana transfer düellosu.</h2>
+          <p>İki oyuncu sırayla aynı cihazda oynar. Ekranı birbirinize teslim ederek en yüksek puanı toplamaya çalışın.</p>
+        </div>
+        <form id="setupForm" class="mode-form-card">
+          <label>Oyuncu 1<input id="playerOneInput" type="text" maxlength="18" value="Oyuncu 1" required /></label>
+          <label>Oyuncu 2<input id="playerTwoInput" type="text" maxlength="18" value="Oyuncu 2" required /></label>
+          <label>Kişi başı tur<select id="roundCountInput"><option value="3">3 tur</option><option value="5" selected>5 tur</option><option value="10">10 tur</option></select></label>
+          <button class="primary-button" type="submit">Düelloyu başlat</button>
         </form>
       </div>
 
-      <div class="game-modes-grid">
-        <section class="solo-card mode-card">
-          <div class="mode-card-heading">
-            <span class="mode-icon">★</span>
-            <div><p class="eyebrow">TEK KİŞİLİK</p><h2>Kendi rekorunu kır.</h2></div>
-          </div>
-          <p class="mode-description">Soruları tek başına cevapla, toplam puanını biriktir ve en yüksek skorunu geliştir.</p>
-          <div class="mode-benefits"><span>✓ Sürekli puan biriktirme</span><span>✓ Tarayıcıda rekor kaydı</span></div>
-          <div class="solo-controls">
-            <label>Oyuncu adın<input id="soloNameInput" type="text" maxlength="18" placeholder="Adını yaz" value="Oyuncu" /></label>
-            <label>Tur sayısı<select id="soloRoundCount"><option value="5">5 tur</option><option value="10" selected>10 tur</option><option value="20">20 tur</option></select></label>
-            <div class="best-score-chip">En yüksek skor <strong id="soloBestScore">0</strong></div>
-            <button id="startSoloButton" class="primary-button" type="button">Tek başına başla</button>
-          </div>
-        </section>
-        <section class="online-card mode-card">
-        <div>
+      <div class="mode-panel" data-mode-panel="online" hidden>
+        <div class="mode-panel-copy">
+          <span class="mode-icon">⌁</span>
           <p class="eyebrow">ÇEVRİMİÇİ DÜELLO</p>
           <h2>Ayrı bilgisayarlardan aynı odaya katılın.</h2>
-          <p>Bir oyuncu oda oluşturur, diğer oyuncu altı haneli kodla katılır.</p>
+          <p>Bir oyuncu oda oluşturur ve altı haneli kodu paylaşır. Rakibi aynı kodla oyuna katılır.</p>
         </div>
-
-        <div class="online-controls">
-          <label>
-            Oyuncu adın
-            <input id="onlineNameInput" type="text" maxlength="18" placeholder="Adını yaz" />
-          </label>
-
-          <label id="onlineRoundLabel">
-            Kişi başı tur
-            <select id="onlineRoundCount">
-              <option value="3">3 tur</option>
-              <option value="5" selected>5 tur</option>
-              <option value="10">10 tur</option>
-            </select>
-          </label>
-
+        <div class="mode-form-card online-controls">
+          <label>Oyuncu adın<input id="onlineNameInput" type="text" maxlength="18" placeholder="Adını yaz" /></label>
+          <label id="onlineRoundLabel">Kişi başı tur<select id="onlineRoundCount"><option value="3">3 tur</option><option value="5" selected>5 tur</option><option value="10">10 tur</option></select></label>
           <button id="createRoomButton" class="primary-button" type="button">Oda oluştur</button>
-
           <div class="room-divider"><span>veya</span></div>
-
-          <label>
-            Oda kodu
-            <input id="roomCodeInput" type="text" maxlength="6" inputmode="numeric" placeholder="123456" />
-          </label>
-
+          <label>Oda kodu<input id="roomCodeInput" type="text" maxlength="6" inputmode="numeric" placeholder="123456" /></label>
           <button id="joinRoomButton" class="ghost-button" type="button">Odaya katıl</button>
           <p id="onlineStatus" class="online-status" aria-live="polite"></p>
-          <div id="roomCodeDisplay" class="room-code-display hidden">
-            Oda kodu: <strong id="roomCodeValue"></strong>
-          </div>
+          <div id="roomCodeDisplay" class="room-code-display hidden">Oda kodu: <strong id="roomCodeValue"></strong></div>
         </div>
-      </section>
       </div>
+
       <div class="rules-grid">
-
-        <article>
-          <span>01</span>
-
-          <h3>Sezonu bul</h3>
-
-          <p>
-            Yanlış tahminde daha erken veya daha geç ipucu al.
-          </p>
-        </article>
-
-        <article>
-          <span>02</span>
-
-          <h3>Takımları bil</h3>
-
-          <p>
-            Geldiği ve gittiği takım için üçer deneme hakkın var.
-          </p>
-        </article>
-
-        <article>
-          <span>03</span>
-
-          <h3>Puanı topla</h3>
-
-          <p>
-            İlk deneme 10, ikinci 7, üçüncü 5 puan kazandırır.
-          </p>
-        </article>
-
+        <article><span>01</span><h3>Sezonu bul</h3><p>Yanlış tahminde daha erken veya daha geç ipucu al.</p></article>
+        <article><span>02</span><h3>Takımları bil</h3><p>Geldiği ve gittiği takım için üçer deneme hakkın var.</p></article>
+        <article><span>03</span><h3>Puanı topla</h3><p>Hızlı ve doğru cevaplarla mümkün olan en yüksek puanı kazan.</p></article>
       </div>
     </section>
-
     <!-- SIRA DEĞİŞTİRME EKRANI -->
     <section id="handoffScreen" class="screen">
 
@@ -296,6 +211,8 @@
         </div>
 
       </div>
+
+      <div id="soloMissionHud" class="solo-mission-hud hidden"><div><span>KONTROL NOKTASI</span><strong id="soloCheckpointLabel">1</strong></div><div><span>HEDEF</span><strong id="soloTargetLabel">50</strong></div><div><span>BU BÖLÜM</span><strong id="soloProgressLabel">0</strong></div><div><span>KALAN SORU</span><strong id="soloQuestionsLeftLabel">5</strong></div></div>
 
       <div class="game-layout">
 
@@ -718,7 +635,7 @@
   </main>
 
   <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
-  <script src="script.js?v=3"></script>
-  <script src="online.js?v=3"></script>
+  <script src="script.js?v=4"></script>
+  <script src="online.js?v=4"></script>
 </body>
 </html>

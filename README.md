@@ -70,4 +70,4 @@ Siteyi HTTPS üzerinden açan oyunculardan biri **Oda oluştur** düğmesine bas
 - Sezon listesi `2026-27` sezonunu da kapsar.
 ## Tek kişilik mod
 
-Ana ekrandaki **Tek başına başla** seçeneğiyle 5, 10 veya 20 turluk oyun açılabilir. Oyuncunun puanı turlar boyunca birikir; en yüksek skor aynı tarayıcıda saklanır ve sonraki oyunlarda gösterilir.
+Ana ekrandaki üst sekmelerden **Tek Başına** seçilir. Bu modda tur sınırı yoktur. Her 5 soruluk kontrol noktasında belirlenen puan hedefi aşılmalıdır: ilk hedef 50 puandır; sonraki hedefler 10'ar puan artar ve 100 puanda sabitlenir. Hedefin altında kalan oyuncu elenir. Toplam puan ve en yüksek skor aynı tarayıcıda saklanır.

@@ -23,6 +23,8 @@ const state = {
   history: [],
   playerCount: 2,
   mode: "local",
+  soloCheckpointStartScore: 0,
+  soloEliminated: false,
 };
 
 const seasonPoints = [15, 12, 9, 6, 3];
@@ -52,6 +54,8 @@ closeHistoryButton:
 historyList:
   document.getElementById("historyList"),
   setupForm: document.getElementById("setupForm"),
+  modeTabs: [...document.querySelectorAll("[data-mode-tab]")],
+  modePanels: [...document.querySelectorAll("[data-mode-panel]")],
   soloNameInput: document.getElementById("soloNameInput"),
   soloRoundCount: document.getElementById("soloRoundCount"),
   soloBestScore: document.getElementById("soloBestScore"),
@@ -64,6 +68,11 @@ historyList:
   handoffPlayerName: document.getElementById("handoffPlayerName"),
 
   scoreboard: document.querySelector(".scoreboard"),
+  soloMissionHud: document.getElementById("soloMissionHud"),
+  soloCheckpointLabel: document.getElementById("soloCheckpointLabel"),
+  soloTargetLabel: document.getElementById("soloTargetLabel"),
+  soloProgressLabel: document.getElementById("soloProgressLabel"),
+  soloQuestionsLeftLabel: document.getElementById("soloQuestionsLeftLabel"),
   scoreNameOne: document.getElementById("scoreNameOne"),
   scoreNameTwo: document.getElementById("scoreNameTwo"),
   scoreOne: document.getElementById("scoreOne"),
@@ -289,7 +298,7 @@ function buildSeasonOptions() {
 }
 
 async function loadPlayers() {
-  const response = await fetch("players.json?v=3");
+  const response = await fetch("players.json?v=4");
   if (!response.ok) {
     throw new Error("Oyuncu verileri yüklenemedi.");
   }
@@ -317,7 +326,31 @@ function completeCard(card) {
   card.classList.add("completed");
 }
 
+function getSoloTarget(checkpointNumber) {
+  return Math.min(100, 50 + (checkpointNumber - 1) * 10);
+}
+
+function ensureDeckHas(index) {
+  while (state.deck.length <= index) {
+    state.deck = state.deck.concat(shuffle(state.allPlayers));
+  }
+}
+
+function updateSoloMissionHud() {
+  const isSolo = state.mode === "solo";
+  elements.soloMissionHud.classList.toggle("hidden", !isSolo);
+  if (!isSolo) return;
+
+  const checkpoint = Math.floor(state.completedTurns / 5) + 1;
+  const questionsLeft = 5 - (state.completedTurns % 5);
+  const progress = state.scores[0] - state.soloCheckpointStartScore;
+  elements.soloCheckpointLabel.textContent = checkpoint;
+  elements.soloTargetLabel.textContent = getSoloTarget(checkpoint);
+  elements.soloProgressLabel.textContent = progress;
+  elements.soloQuestionsLeftLabel.textContent = questionsLeft;
+}
 function prepareTurn() {
+  ensureDeckHas(state.completedTurns);
   state.currentFootballer = state.deck[state.completedTurns];
   state.seasonAttempts = 0;
   state.arrivalAttempts = 0;
@@ -387,23 +420,29 @@ function updateScoreboard() {
   elements.scoreCardOne.classList.toggle("active-player", state.currentPlayer === 0);
   elements.scoreCardTwo.classList.toggle("active-player", !isSolo && state.currentPlayer === 1);
 
-  const displayedRound = Math.floor(state.completedTurns / state.playerCount) + 1;
-  elements.roundIndicator.textContent = `${Math.min(displayedRound, state.roundsPerPlayer)} / ${state.roundsPerPlayer}`;
+  if (isSolo) {
+    elements.roundIndicator.textContent = `Soru ${state.completedTurns + 1}`;
+  } else {
+    const displayedRound = Math.floor(state.completedTurns / state.playerCount) + 1;
+    elements.roundIndicator.textContent = `${Math.min(displayedRound, state.roundsPerPlayer)} / ${state.roundsPerPlayer}`;
+  }
+  updateSoloMissionHud();
 }
 
 function startGame() {
-  const totalNeeded = state.roundsPerPlayer * state.playerCount;
+  const totalNeeded = state.mode === "solo"
+    ? state.allPlayers.length
+    : state.roundsPerPlayer * state.playerCount;
   let deck = shuffle(state.allPlayers);
+  while (deck.length < totalNeeded) deck = deck.concat(shuffle(state.allPlayers));
 
-  while (deck.length < totalNeeded) {
-    deck = deck.concat(shuffle(state.allPlayers));
-  }
-
-  state.deck = deck.slice(0, totalNeeded);
+  state.deck = state.mode === "solo" ? deck : deck.slice(0, totalNeeded);
   state.scores = [0, 0];
   state.currentPlayer = 0;
   state.completedTurns = 0;
   state.history = [];
+  state.soloCheckpointStartScore = 0;
+  state.soloEliminated = false;
 
   elements.restartButton.classList.remove("hidden");
   elements.historyButton.classList.remove("hidden");
@@ -834,7 +873,18 @@ function setSummaryLogo(imageElement, logoUrl) {
 function goToNextTurn() {
   state.completedTurns += 1;
 
-  if (state.completedTurns >= state.roundsPerPlayer * state.playerCount) {
+  if (state.mode === "solo" && state.completedTurns % 5 === 0) {
+    const completedCheckpoint = state.completedTurns / 5;
+    const checkpointScore = state.scores[0] - state.soloCheckpointStartScore;
+    if (checkpointScore < getSoloTarget(completedCheckpoint)) {
+      state.soloEliminated = true;
+      finishGame();
+      return;
+    }
+    state.soloCheckpointStartScore = state.scores[0];
+  }
+
+  if (state.mode !== "solo" && state.completedTurns >= state.roundsPerPlayer * state.playerCount) {
     finishGame();
     return;
   }
@@ -864,10 +914,11 @@ function finishGame() {
     const bestScore = Math.max(previousBest, state.scores[0]);
     localStorage.setItem("fenerSoloBestScore", String(bestScore));
     elements.soloBestScore.textContent = bestScore;
-    elements.winnerText.textContent = `${state.scores[0]} puan topladın!`;
-    elements.soloRecordText.textContent = isNewRecord
-      ? `Yeni rekor! Önceki skorunu geçtin.`
-      : `En yüksek skorun: ${bestScore}`;
+    elements.winnerText.textContent = state.soloEliminated
+      ? `${state.completedTurns}. soruda elendin`
+      : `${state.scores[0]} puan topladın!`;
+    elements.soloRecordText.textContent = `${state.scores[0]} puan • ${state.completedTurns} soru` +
+      (isNewRecord ? ` • Yeni rekor!` : ` • Rekor: ${bestScore}`);
   } else if (state.scores[0] === state.scores[1]) {
     elements.winnerText.textContent = "Berabere!";
   } else {
@@ -887,6 +938,17 @@ function resetToSetup() {
   closeHistory();
 }
 
+elements.modeTabs.forEach((button) => {
+  button.addEventListener("click", () => {
+    const selectedMode = button.dataset.modeTab;
+    elements.modeTabs.forEach((tab) => tab.classList.toggle("active", tab === button));
+    elements.modePanels.forEach((panel) => {
+      const active = panel.dataset.modePanel === selectedMode;
+      panel.classList.toggle("active", active);
+      panel.hidden = !active;
+    });
+  });
+});
 elements.setupForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -905,7 +967,6 @@ elements.startSoloButton.addEventListener("click", () => {
   state.playerCount = 1;
   state.mode = "solo";
   state.names = [elements.soloNameInput.value.trim() || "Oyuncu", ""];
-  state.roundsPerPlayer = Number(elements.soloRoundCount.value);
   startGame();
 });
 elements.revealButton.addEventListener("click", () => {
