@@ -46,6 +46,8 @@ function serialisableState() {
     currentStage: state.currentStage,
     turnStartScore: state.turnStartScore,
     history: state.history,
+    playerCount: state.playerCount,
+    mode: state.mode,
   };
 }
 
@@ -143,6 +145,8 @@ function bindConnection(connection) {
 
   connection.on("data", (message) => {
     if (message.type === "join" && online.isHost) {
+      state.playerCount = 2;
+      state.mode = "online";
       state.names = [
         onlineElements.name.value.trim() || "Oyuncu 1",
         message.name || "Oyuncu 2",

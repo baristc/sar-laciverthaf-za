@@ -68,3 +68,6 @@ Siteyi HTTPS üzerinden açan oyunculardan biri **Oda oluştur** düğmesine bas
 - Aynı futbolcunun her Fenerbahçe gelişi ayrı dönem kaydıdır.
 - Geliş ve ayrılış tarih alanları önceki ISO biçiminde tutulur.
 - Sezon listesi `2026-27` sezonunu da kapsar.
+## Tek kişilik mod
+
+Ana ekrandaki **Tek başına başla** seçeneğiyle 5, 10 veya 20 turluk oyun açılabilir. Oyuncunun puanı turlar boyunca birikir; en yüksek skor aynı tarayıcıda saklanır ve sonraki oyunlarda gösterilir.

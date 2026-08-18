@@ -21,6 +21,8 @@ const state = {
   currentStage: "season",
   turnStartScore: 0,
   history: [],
+  playerCount: 2,
+  mode: "local",
 };
 
 const seasonPoints = [15, 12, 9, 6, 3];
@@ -50,6 +52,10 @@ closeHistoryButton:
 historyList:
   document.getElementById("historyList"),
   setupForm: document.getElementById("setupForm"),
+  soloNameInput: document.getElementById("soloNameInput"),
+  soloRoundCount: document.getElementById("soloRoundCount"),
+  soloBestScore: document.getElementById("soloBestScore"),
+  startSoloButton: document.getElementById("startSoloButton"),
   playerOneInput: document.getElementById("playerOneInput"),
   playerTwoInput: document.getElementById("playerTwoInput"),
   roundCountInput: document.getElementById("roundCountInput"),
@@ -57,6 +63,7 @@ historyList:
   revealButton: document.getElementById("revealButton"),
   handoffPlayerName: document.getElementById("handoffPlayerName"),
 
+  scoreboard: document.querySelector(".scoreboard"),
   scoreNameOne: document.getElementById("scoreNameOne"),
   scoreNameTwo: document.getElementById("scoreNameTwo"),
   scoreOne: document.getElementById("scoreOne"),
@@ -128,6 +135,8 @@ summaryTurnScore:
   finalNameTwo: document.getElementById("finalNameTwo"),
   finalScoreOne: document.getElementById("finalScoreOne"),
   finalScoreTwo: document.getElementById("finalScoreTwo"),
+  finalScoreTwoCard: document.getElementById("finalScoreTwoCard"),
+  soloRecordText: document.getElementById("soloRecordText"),
 };
 
 function showScreen(screenName) {
@@ -366,21 +375,24 @@ function addScore(points) {
 }
 
 function updateScoreboard() {
+  const isSolo = state.playerCount === 1;
   elements.scoreNameOne.textContent = state.names[0];
   elements.scoreNameTwo.textContent = state.names[1];
   elements.scoreOne.textContent = state.scores[0];
   elements.scoreTwo.textContent = state.scores[1];
   elements.currentPlayerLabel.textContent = state.names[state.currentPlayer];
 
+  elements.scoreboard.classList.toggle("solo-mode", isSolo);
+  elements.scoreCardTwo.classList.toggle("hidden", isSolo);
   elements.scoreCardOne.classList.toggle("active-player", state.currentPlayer === 0);
-  elements.scoreCardTwo.classList.toggle("active-player", state.currentPlayer === 1);
+  elements.scoreCardTwo.classList.toggle("active-player", !isSolo && state.currentPlayer === 1);
 
-  const displayedRound = Math.floor(state.completedTurns / 2) + 1;
+  const displayedRound = Math.floor(state.completedTurns / state.playerCount) + 1;
   elements.roundIndicator.textContent = `${Math.min(displayedRound, state.roundsPerPlayer)} / ${state.roundsPerPlayer}`;
 }
 
 function startGame() {
-  const totalNeeded = state.roundsPerPlayer * 2;
+  const totalNeeded = state.roundsPerPlayer * state.playerCount;
   let deck = shuffle(state.allPlayers);
 
   while (deck.length < totalNeeded) {
@@ -396,7 +408,12 @@ function startGame() {
   elements.restartButton.classList.remove("hidden");
   elements.historyButton.classList.remove("hidden");
   elements.handoffPlayerName.textContent = state.names[state.currentPlayer];
-  showScreen("handoff");
+  if (state.playerCount === 1) {
+    prepareTurn();
+    showScreen("game");
+  } else {
+    showScreen("handoff");
+  }
 }
 
 function handleSeasonGuess() {
@@ -502,7 +519,7 @@ function saveTurnHistory() {
   state.history.push({
     turnIndex: state.completedTurns,
     roundNumber:
-      Math.floor(state.completedTurns / 2) + 1,
+      Math.floor(state.completedTurns / state.playerCount) + 1,
     playerName:
       state.names[state.currentPlayer],
     playerIndex:
@@ -817,23 +834,41 @@ function setSummaryLogo(imageElement, logoUrl) {
 function goToNextTurn() {
   state.completedTurns += 1;
 
-  if (state.completedTurns >= state.roundsPerPlayer * 2) {
+  if (state.completedTurns >= state.roundsPerPlayer * state.playerCount) {
     finishGame();
     return;
   }
 
-  state.currentPlayer = state.completedTurns % 2;
+  state.currentPlayer = state.completedTurns % state.playerCount;
   elements.handoffPlayerName.textContent = state.names[state.currentPlayer];
-  showScreen("handoff");
+  if (state.playerCount === 1) {
+    prepareTurn();
+    showScreen("game");
+  } else {
+    showScreen("handoff");
+  }
 }
 
 function finishGame() {
+  const isSolo = state.playerCount === 1;
   elements.finalNameOne.textContent = state.names[0];
   elements.finalNameTwo.textContent = state.names[1];
   elements.finalScoreOne.textContent = state.scores[0];
   elements.finalScoreTwo.textContent = state.scores[1];
+  elements.finalScoreTwoCard.classList.toggle("hidden", isSolo);
+  elements.soloRecordText.classList.toggle("hidden", !isSolo);
 
-  if (state.scores[0] === state.scores[1]) {
+  if (isSolo) {
+    const previousBest = Number(localStorage.getItem("fenerSoloBestScore") || 0);
+    const isNewRecord = state.scores[0] > previousBest;
+    const bestScore = Math.max(previousBest, state.scores[0]);
+    localStorage.setItem("fenerSoloBestScore", String(bestScore));
+    elements.soloBestScore.textContent = bestScore;
+    elements.winnerText.textContent = `${state.scores[0]} puan topladın!`;
+    elements.soloRecordText.textContent = isNewRecord
+      ? `Yeni rekor! Önceki skorunu geçtin.`
+      : `En yüksek skorun: ${bestScore}`;
+  } else if (state.scores[0] === state.scores[1]) {
     elements.winnerText.textContent = "Berabere!";
   } else {
     const winnerIndex = state.scores[0] > state.scores[1] ? 0 : 1;
@@ -855,6 +890,8 @@ function resetToSetup() {
 elements.setupForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
+  state.playerCount = 2;
+  state.mode = "local";
   state.names = [
     elements.playerOneInput.value.trim() || "Oyuncu 1",
     elements.playerTwoInput.value.trim() || "Oyuncu 2",
@@ -863,6 +900,14 @@ elements.setupForm.addEventListener("submit", (event) => {
   startGame();
 });
 
+
+elements.startSoloButton.addEventListener("click", () => {
+  state.playerCount = 1;
+  state.mode = "solo";
+  state.names = [elements.soloNameInput.value.trim() || "Oyuncu", ""];
+  state.roundsPerPlayer = Number(elements.soloRoundCount.value);
+  startGame();
+});
 elements.revealButton.addEventListener("click", () => {
   prepareTurn();
   showScreen("game");
@@ -885,6 +930,7 @@ elements.departureInput.addEventListener("keydown", (event) => {
 
 async function initialise() {
   buildSeasonOptions();
+  elements.soloBestScore.textContent = localStorage.getItem("fenerSoloBestScore") || "0";
   updateReportButton();
 
   try {

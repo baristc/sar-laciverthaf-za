@@ -84,11 +84,11 @@
 
         <div class="hero-copy">
           <span class="pill">
-            Aynı bilgisayar veya çevrimiçi oda
+            Tek başına, yan yana veya çevrimiçi
           </span>
 
           <h2>
-            Transfer hafızanı rakibine karşı test et.
+            Transfer hafızanı test et, puanını yükselt.
           </h2>
 
           <p>
@@ -143,7 +143,22 @@
         </form>
       </div>
 
-      <section class="online-card">
+      <div class="game-modes-grid">
+        <section class="solo-card mode-card">
+          <div class="mode-card-heading">
+            <span class="mode-icon">★</span>
+            <div><p class="eyebrow">TEK KİŞİLİK</p><h2>Kendi rekorunu kır.</h2></div>
+          </div>
+          <p class="mode-description">Soruları tek başına cevapla, toplam puanını biriktir ve en yüksek skorunu geliştir.</p>
+          <div class="mode-benefits"><span>✓ Sürekli puan biriktirme</span><span>✓ Tarayıcıda rekor kaydı</span></div>
+          <div class="solo-controls">
+            <label>Oyuncu adın<input id="soloNameInput" type="text" maxlength="18" placeholder="Adını yaz" value="Oyuncu" /></label>
+            <label>Tur sayısı<select id="soloRoundCount"><option value="5">5 tur</option><option value="10" selected>10 tur</option><option value="20">20 tur</option></select></label>
+            <div class="best-score-chip">En yüksek skor <strong id="soloBestScore">0</strong></div>
+            <button id="startSoloButton" class="primary-button" type="button">Tek başına başla</button>
+          </div>
+        </section>
+        <section class="online-card mode-card">
         <div>
           <p class="eyebrow">ÇEVRİMİÇİ DÜELLO</p>
           <h2>Ayrı bilgisayarlardan aynı odaya katılın.</h2>
@@ -181,6 +196,7 @@
           </div>
         </div>
       </section>
+      </div>
       <div class="rules-grid">
 
         <article>
@@ -611,7 +627,7 @@
         </span>
 
         <p class="eyebrow">
-          DÜELLO TAMAMLANDI
+          OYUN TAMAMLANDI
         </p>
 
         <h2 id="winnerText">
@@ -630,7 +646,7 @@
             </strong>
           </div>
 
-          <div>
+          <div id="finalScoreTwoCard">
             <span id="finalNameTwo">
               Oyuncu 2
             </span>
@@ -641,6 +657,8 @@
           </div>
 
         </div>
+        <p id="soloRecordText" class="solo-record-text hidden"></p>
+
 
         <button
           id="playAgainButton"
