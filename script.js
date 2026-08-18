@@ -178,6 +178,13 @@ function getAllClubs() {
     }
   });
 
+  if (!clubs.has(normalise("Fenerbahçe"))) {
+    clubs.set(normalise("Fenerbahçe"), {
+      name: "Fenerbahçe",
+      logo: "images/fenerbahce-logo.png",
+    });
+  }
+
   return [...clubs.values()].sort((a, b) =>
     a.name.localeCompare(b.name, "tr")
   );
@@ -263,7 +270,7 @@ function parseSeasonStart(season) {
 
 function buildSeasonOptions() {
   const seasons = [];
-  for (let year = 2015; year <= 2025; year += 1) {
+  for (let year = 2015; year <= 2026; year += 1) {
     seasons.push(`${year}-${String(year + 1).slice(-2)}`);
   }
 
@@ -440,11 +447,13 @@ function handleTeamGuess(type) {
 
   const answer = isArrival
     ? state.currentFootballer.arrivalClub
-    : state.currentFootballer.departureClub;
+    : state.currentFootballer.departureClub || "Fenerbahçe";
 
   const aliases = isArrival
     ? state.currentFootballer.arrivalAliases
-    : state.currentFootballer.departureAliases;
+    : state.currentFootballer.departureClub
+      ? state.currentFootballer.departureAliases
+      : ["Fenerbahçe'de", "Hâlâ Fenerbahçe'de", "Fenerbahçede", "Hala Fenerbahçede", "FB"];
 
   if (!input.value.trim()) {
     feedback.textContent = "Önce bir takım adı yaz.";
@@ -773,30 +782,6 @@ function closeHistory() {
 function moveToNextStage(wasArrival) {
   if (wasArrival) {
 
-    if (!state.currentFootballer.departureClub) {
-      state.currentStage = "done";
-
-      elements.departureFeedback.textContent =
-        "Bu oyuncu için ayrılış kaydı bulunamadı veya oyuncu hâlâ Fenerbahçe'de.";
-
-      elements.departureFeedback.className =
-        "feedback";
-
-      elements.departureSubmit.disabled = true;
-      elements.departureInput.disabled = true;
-
-      elements.departureQuestion.classList.remove(
-        "locked",
-        "active-question"
-      );
-
-      elements.departureQuestion.classList.add(
-        "completed"
-      );
-
-      showTurnSummary();
-      return;
-    }
 
     state.currentStage = "departure";
 
@@ -962,3 +947,4 @@ elements.downloadReportsButton.addEventListener(
   downloadDataReports
 );
 initialise();
+

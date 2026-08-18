@@ -197,16 +197,16 @@ def extract_movements(api_items: list[dict[str, Any]]) -> dict[int, dict[str, An
             if transfer_date is None:
                 continue
 
-            player_record["movements"].append(
-                {
-                    "date": transfer_date,
-                    "type": transfer.get("type"),
-                    "in_id": team_in.get("id"),
-                    "in_name": team_in.get("name"),
-                    "out_id": team_out.get("id"),
-                    "out_name": team_out.get("name"),
-                }
-            )
+            movement = {
+                "date": transfer_date,
+                "type": transfer.get("type"),
+                "in_id": team_in.get("id"),
+                "in_name": team_in.get("name"),
+                "out_id": team_out.get("id"),
+                "out_name": team_out.get("name"),
+            }
+            if movement not in player_record["movements"]:
+                player_record["movements"].append(movement)
 
     for player in players.values():
         player["movements"].sort(key=lambda movement: movement["date"])
@@ -232,97 +232,86 @@ def create_game_records(players: dict[int, dict[str, Any]]) -> tuple[list[dict[s
         if not arrivals:
             continue
 
-        # Aynı oyuncunun birden fazla gelişi varsa her geliş ayrı soru olmaması için
-        # son 10 yıl içindeki ilk gelişi kullanılır.
-        arrival = arrivals[0]
+        # API aynı transferi farklı tip etiketleriyle tekrarlayabildiği için
+        # aynı tarih ve kulüpten gelen hareketleri tek dönem say.
+        unique_arrivals = []
+        for movement in arrivals:
+            is_near_duplicate = any(
+                previous["out_id"] == movement["out_id"]
+                and abs((movement["date"] - previous["date"]).days) <= 30
+                for previous in unique_arrivals
+            )
+            if not is_near_duplicate:
+                unique_arrivals.append(movement)
+        arrivals = unique_arrivals
 
-        departures = [
-            movement
-            for movement in movements
-            if movement["out_id"] == FENERBAHCE_TEAM_ID
-            and movement["in_id"] != FENERBAHCE_TEAM_ID
-            and movement["date"] >= arrival["date"]
-        ]
-        departure = departures[0] if departures else None
+        # Her Fenerbahçe gelişi ayrı bir oyun kaydıdır. Böylece aynı oyuncunun
+        # farklı dönemleri birbirine karışmaz.
+        for arrival_index, arrival in enumerate(arrivals):
+            next_arrival_date = (
+                arrivals[arrival_index + 1]["date"]
+                if arrival_index + 1 < len(arrivals)
+                else None
+            )
+            departures = [
+                movement
+                for movement in movements
+                if movement["out_id"] == FENERBAHCE_TEAM_ID
+                and movement["in_id"] != FENERBAHCE_TEAM_ID
+                and movement["date"] >= arrival["date"]
+                and (next_arrival_date is None or movement["date"] < next_arrival_date)
+            ]
+            departure = departures[0] if departures else None
 
-        problems: list[str] = []
-        if not arrival["out_name"]:
-            problems.append("geldiği takım eksik")
+            problems: list[str] = []
+            if not arrival["out_name"]:
+                problems.append("geldiği takım eksik")
 
-        # Kiralıktan dönüş kayıtları bazen eski kulüp gibi görünür.
-        transfer_type = str(arrival.get("type") or "")
-        if "loan" in transfer_type.lower() or "kiralık" in transfer_type.lower():
-            problems.append(f"geliş tipi kontrol edilmeli: {transfer_type}")
+            transfer_type = str(arrival.get("type") or "")
+            if "loan" in transfer_type.lower() or "kiralık" in transfer_type.lower():
+                problems.append(f"geliş tipi kontrol edilmeli: {transfer_type}")
 
-        record = {
-    "id": player["id"],
-    "name": player["name"],
+            record = {
+                "id": f"{player['id']}-{arrival['date'].isoformat()}-{arrival_index + 1}",
+                "playerId": player["id"],
+                "stintNumber": arrival_index + 1,
+                "name": player["name"],
+                "image": (
+                    f"https://media.api-sports.io/football/players/"
+                    f"{player['id']}.png"
+                ),
+                "arrivalSeason": season_from_date(arrival["date"]),
+                "arrivalClub": arrival["out_name"],
+                "arrivalClubId": arrival["out_id"],
+                "arrivalClubLogo": (
+                    f"https://media.api-sports.io/football/teams/"
+                    f"{arrival['out_id']}.png"
+                    if arrival["out_id"] else None
+                ),
+                "arrivalAliases": aliases_for_club(arrival["out_name"]),
+                "departureClub": departure["in_name"] if departure else None,
+                "departureClubId": departure["in_id"] if departure else None,
+                "departureClubLogo": (
+                    f"https://media.api-sports.io/football/teams/"
+                    f"{departure['in_id']}.png"
+                    if departure and departure["in_id"] else None
+                ),
+                "departureAliases": (
+                    aliases_for_club(departure["in_name"]) if departure else []
+                ),
+                "isCurrentPlayer": departure is None,
+                "arrivalDate": arrival["date"].isoformat(),
+                "departureDate": departure["date"].isoformat() if departure else None,
+                "transferType": arrival.get("type"),
+            }
 
-    "image": (
-        f"https://media.api-sports.io/football/players/"
-        f"{player['id']}.png"
-    ),
+            if departure and not departure["in_name"]:
+                problems.append("gittiği takım eksik")
 
-    "arrivalSeason": season_from_date(arrival["date"]),
-
-    "arrivalClub": arrival["out_name"],
-    "arrivalClubId": arrival["out_id"],
-
-    "arrivalClubLogo": (
-        f"https://media.api-sports.io/football/teams/"
-        f"{arrival['out_id']}.png"
-        if arrival["out_id"]
-        else None
-    ),
-
-    "arrivalAliases": aliases_for_club(
-        arrival["out_name"]
-    ),
-
-    "departureClub": (
-        departure["in_name"]
-        if departure
-        else None
-    ),
-
-    "departureClubId": (
-        departure["in_id"]
-        if departure
-        else None
-    ),
-
-    "departureClubLogo": (
-        f"https://media.api-sports.io/football/teams/"
-        f"{departure['in_id']}.png"
-        if departure and departure["in_id"]
-        else None
-    ),
-
-    "departureAliases": (
-        aliases_for_club(departure["in_name"])
-        if departure
-        else []
-    ),
-
-    "arrivalDate": arrival["date"].isoformat(),
-
-    "departureDate": (
-        departure["date"].isoformat()
-        if departure
-        else None
-    ),
-
-    "transferType": arrival.get("type"),
-}
-
-        if departure and not departure["in_name"]:
-            problems.append("gittiği takım eksik")
-
-        if problems:
-            review.append({**record, "reviewReasons": problems})
-        else:
-            playable.append(record)
-
+            if problems:
+                review.append({**record, "reviewReasons": problems})
+            else:
+                playable.append(record)
     # Aynı isimli oyuncuların karışmaması için ID üzerinden benzersiz, isim üzerinden sıralı.
     playable.sort(key=lambda item: normalize_name(item["name"]))
     review.sort(key=lambda item: normalize_name(item["name"]))
@@ -377,3 +366,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

@@ -919,3 +919,87 @@ body.modal-open {
   font-size: 0.76rem;
   text-align: center;
 }
+.online-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 18px;
+  padding: clamp(24px, 4vw, 38px);
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  background: var(--panel);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.22);
+}
+
+.online-card h2 {
+  margin: 8px 0 12px;
+  font-size: clamp(1.5rem, 3vw, 2.35rem);
+}
+
+.online-card > div:first-child > p:last-child,
+.online-status {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.online-controls {
+  display: grid;
+  gap: 13px;
+}
+
+.room-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.room-divider::before,
+.room-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.online-status {
+  min-height: 22px;
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.online-status.error {
+  color: var(--danger);
+}
+
+.room-code-display {
+  padding: 15px;
+  border: 1px solid rgba(255, 213, 0, 0.35);
+  border-radius: 14px;
+  color: var(--muted);
+  text-align: center;
+  background: rgba(255, 213, 0, 0.08);
+}
+
+.room-code-display strong {
+  margin-left: 8px;
+  color: var(--yellow);
+  font-size: 1.45rem;
+  letter-spacing: 0.16em;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  transform: none !important;
+}
+
+@media (max-width: 820px) {
+  .online-card {
+    grid-template-columns: 1fr;
+  }
+}

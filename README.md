@@ -55,3 +55,16 @@ Oyuncu fotoğrafları oyuncu ID'sinden şu biçimde oluşturulur:
 ```text
 https://media.api-sports.io/football/players/PLAYER_ID.png
 ```
+
+## Çevrimiçi oyun
+
+Siteyi HTTPS üzerinden açan oyunculardan biri **Oda oluştur** düğmesine basar ve ekrandaki altı haneli kodu rakibine gönderir. Diğer oyuncu kendi bilgisayarında aynı siteyi açıp adını ve oda kodunu yazarak **Odaya katıl** düğmesine basar.
+
+Çevrimiçi bağlantı PeerJS/WebRTC üzerinden iki tarayıcı arasında kurulur. Bu nedenle iki oyuncunun da internet bağlantısı olmalı ve sayfa `file://` yerine GitHub Pages veya başka bir HTTPS adresinden açılmalıdır.
+
+## Oyun verisi kuralları
+
+- Ayrılış kaydı olmayan güncel oyuncular için doğru cevap `Fenerbahçe` veya `Hâlâ Fenerbahçe'de` gibi açık bir eşdeğerdir; otomatik puan verilmez.
+- Aynı futbolcunun her Fenerbahçe gelişi ayrı dönem kaydıdır.
+- Geliş ve ayrılış tarih alanları önceki ISO biçiminde tutulur.
+- Sezon listesi `2026-27` sezonunu da kapsar.

@@ -84,7 +84,7 @@
 
         <div class="hero-copy">
           <span class="pill">
-            Tek bilgisayar • 2 oyuncu
+            Aynı bilgisayar veya çevrimiçi oda
           </span>
 
           <h2>
@@ -143,6 +143,44 @@
         </form>
       </div>
 
+      <section class="online-card">
+        <div>
+          <p class="eyebrow">ÇEVRİMİÇİ DÜELLO</p>
+          <h2>Ayrı bilgisayarlardan aynı odaya katılın.</h2>
+          <p>Bir oyuncu oda oluşturur, diğer oyuncu altı haneli kodla katılır.</p>
+        </div>
+
+        <div class="online-controls">
+          <label>
+            Oyuncu adın
+            <input id="onlineNameInput" type="text" maxlength="18" placeholder="Adını yaz" />
+          </label>
+
+          <label id="onlineRoundLabel">
+            Kişi başı tur
+            <select id="onlineRoundCount">
+              <option value="3">3 tur</option>
+              <option value="5" selected>5 tur</option>
+              <option value="10">10 tur</option>
+            </select>
+          </label>
+
+          <button id="createRoomButton" class="primary-button" type="button">Oda oluştur</button>
+
+          <div class="room-divider"><span>veya</span></div>
+
+          <label>
+            Oda kodu
+            <input id="roomCodeInput" type="text" maxlength="6" inputmode="numeric" placeholder="123456" />
+          </label>
+
+          <button id="joinRoomButton" class="ghost-button" type="button">Odaya katıl</button>
+          <p id="onlineStatus" class="online-status" aria-live="polite"></p>
+          <div id="roomCodeDisplay" class="room-code-display hidden">
+            Oda kodu: <strong id="roomCodeValue"></strong>
+          </div>
+        </div>
+      </section>
       <div class="rules-grid">
 
         <article>
@@ -661,6 +699,8 @@
 
   </main>
 
+  <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
   <script src="script.js"></script>
+  <script src="online.js"></script>
 </body>
 </html>
