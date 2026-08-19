@@ -813,6 +813,8 @@ function showTurnSummary() {
   );
 
   elements.turnSummary.classList.remove("hidden");
+  elements.nextTurnButton.textContent =
+    state.mode === "solo" ? "Sıradaki futbolcu" : "Sırayı değiştir";
   elements.nextTurnButton.classList.remove("hidden");
   updateCurrentReportState();
 }
@@ -1028,12 +1030,25 @@ elements.nextTurnButton.addEventListener("click", goToNextTurn);
 elements.playAgainButton.addEventListener("click", startGame);
 elements.restartButton.addEventListener("click", resetToSetup);
 
+function handleTeamInputEnter(event, type, suggestionsBox) {
+  if (event.key !== "Enter") return;
+  event.preventDefault();
+
+  const firstSuggestion = suggestionsBox.querySelector(".suggestion-item");
+  if (!suggestionsBox.classList.contains("hidden") && firstSuggestion) {
+    firstSuggestion.click();
+    return;
+  }
+
+  handleTeamGuess(type);
+}
+
 elements.arrivalInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") handleTeamGuess("arrival");
+  handleTeamInputEnter(event, "arrival", elements.arrivalSuggestions);
 });
 
 elements.departureInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") handleTeamGuess("departure");
+  handleTeamInputEnter(event, "departure", elements.departureSuggestions);
 });
 
 async function initialise() {
