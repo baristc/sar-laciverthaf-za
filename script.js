@@ -817,6 +817,12 @@ function showTurnSummary() {
     state.mode === "solo" ? "Sıradaki futbolcu" : "Sırayı değiştir";
   elements.nextTurnButton.classList.remove("hidden");
   updateCurrentReportState();
+
+  if (state.mode === "solo") {
+    window.dispatchEvent(new CustomEvent("soloScoreUpdated", {
+      detail: { name: state.names[0], score: state.scores[0] },
+    }));
+  }
 }
 function renderHistory() {
   if (state.history.length === 0) {

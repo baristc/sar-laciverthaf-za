@@ -1329,3 +1329,32 @@ button:disabled {
     touch-action: manipulation;
   }
 }
+
+/* GÜNLÜK SKOR TABLOSU */
+.leaderboard-section {
+  margin-top: 24px;
+  padding: clamp(22px, 4vw, 36px);
+  border: 1px solid rgba(255, 213, 0, 0.26);
+  border-radius: 28px;
+  background: linear-gradient(145deg, rgba(15, 45, 94, 0.96), rgba(4, 17, 42, 0.98));
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.24);
+}
+.leaderboard-heading { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 24px; }
+.leaderboard-heading h2 { margin: 7px 0 8px; font-size: clamp(1.55rem, 3.4vw, 2.55rem); }
+.leaderboard-heading > div:first-child > p:last-child { margin: 0; color: var(--muted); }
+.all-time-record { min-width: 210px; padding: 18px; border: 1px solid rgba(255, 213, 0, 0.3); border-radius: 18px; text-align: center; background: rgba(255, 213, 0, 0.08); }
+.all-time-record span, .all-time-record small { display: block; color: var(--muted); font-size: 0.68rem; font-weight: 800; }
+.all-time-record strong { display: block; margin: 6px 0 3px; color: var(--yellow); font-size: 2rem; }
+.leaderboard-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; margin: 24px 0 0; padding: 0; list-style: none; }
+.leaderboard-list li { display: grid; grid-template-columns: 36px 1fr auto; align-items: center; gap: 11px; min-width: 0; padding: 12px 14px; border-radius: 14px; background: rgba(255, 255, 255, 0.055); }
+.leaderboard-rank { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9px; color: var(--navy); background: var(--yellow); font-size: 0.78rem; font-weight: 900; }
+.leaderboard-list strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.leaderboard-list b { color: var(--yellow); font-size: 0.82rem; }
+.leaderboard-list .leaderboard-empty { display: block; grid-column: 1 / -1; padding: 24px; color: var(--muted); text-align: center; }
+.leaderboard-status { min-height: 18px; margin: 12px 0 0; color: var(--success); font-size: 0.76rem; text-align: center; }
+.leaderboard-status.error { color: var(--danger); }
+@media (max-width: 700px) {
+  .leaderboard-heading { grid-template-columns: 1fr; }
+  .all-time-record { min-width: 0; }
+  .leaderboard-list { grid-template-columns: 1fr; }
+}
