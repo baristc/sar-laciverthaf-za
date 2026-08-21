@@ -71,3 +71,9 @@ Siteyi HTTPS üzerinden açan oyunculardan biri **Oda oluştur** düğmesine bas
 ## Tek kişilik mod
 
 Ana ekrandaki üst sekmelerden **Tek Başına** seçilir. Bu modda tur sınırı yoktur. Her 5 soruluk kontrol noktasında belirlenen puan hedefi aşılmalıdır: ilk hedef 50 puandır; sonraki hedefler 10'ar puan artar ve 100 puanda sabitlenir. Hedefin altında kalan oyuncu elenir. Toplam puan ve en yüksek skor aynı tarayıcıda saklanır.
+
+## Günlük skor tablosu
+
+Tek kişilik moddaki skorlar InfinityFree MySQL veritabanına kaydedilir. Günlük ilk 10 listesi Türkiye saatiyle her gece 00.00'da yeni güne geçer; tüm zamanların en yüksek skoru silinmeden korunur. Aynı oyuncunun aynı gündeki yalnızca en yüksek skoru tutulur.
+
+Sunucuya yüklerken `api/config.example.php` dosyasının bir kopyasını `api/config.php` adıyla oluştur ve yalnızca bu özel dosyadaki `password` alanına MySQL şifresini yaz. `api/config.php` Git'e dahil edilmez. İlk API isteğinde gerekli tablo otomatik oluşturulur.

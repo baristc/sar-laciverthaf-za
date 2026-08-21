@@ -38,7 +38,7 @@
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="style.css?v=8" />
+  <link rel="stylesheet" href="style.css?v=9" />
 </head>
 
 <body>
@@ -159,6 +159,24 @@
         </div>
       </div>
 
+      <section class="leaderboard-section" aria-labelledby="leaderboardTitle">
+        <div class="leaderboard-heading">
+          <div>
+            <p class="eyebrow">GÜNLÜK REKABET</p>
+            <h2 id="leaderboardTitle">Günün en iyi 10 oyuncusu</h2>
+            <p>Liste her gece Türkiye saatiyle 00.00'da yenilenir.</p>
+          </div>
+          <div class="all-time-record">
+            <span>TÜM ZAMANLAR REKORU</span>
+            <strong id="allTimeRecordScore">—</strong>
+            <small id="allTimeRecordName">Henüz skor yok</small>
+          </div>
+        </div>
+        <ol id="dailyLeaderboardList" class="leaderboard-list" aria-live="polite">
+          <li class="leaderboard-empty">Skorlar yükleniyor…</li>
+        </ol>
+        <p id="leaderboardStatus" class="leaderboard-status" aria-live="polite"></p>
+      </section>
       <div class="rules-grid">
         <article><span>01</span><h3>Sezonu bul</h3><p>Yanlış tahminde daha erken veya daha geç ipucu al.</p></article>
         <article><span>02</span><h3>Takımları bil</h3><p>Geldiği ve gittiği takım için üçer deneme hakkın var.</p></article>
@@ -653,7 +671,8 @@
   </main>
 
   <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
-  <script src="script.js?v=9"></script>
+  <script src="script.js?v=10"></script>
+  <script src="leaderboard.js?v=1"></script>
   <script src="online.js?v=7"></script>
   <script src="pwa.js?v=1"></script>
 </body>

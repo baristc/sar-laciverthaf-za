@@ -1,9 +1,10 @@
-const CACHE_NAME = "fener-transfer-duellosu-pwa-v1";
+const CACHE_NAME = "fener-transfer-duellosu-pwa-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./style.css?v=8",
-  "./script.js?v=9",
+  "./style.css?v=9",
+  "./script.js?v=10",
+  "./leaderboard.js?v=1",
   "./online.js?v=7",
   "./pwa.js?v=1",
   "./manifest.webmanifest?v=1",
@@ -34,6 +35,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
 
   if (request.method !== "GET" || url.origin !== self.location.origin) return;
+  if (url.pathname.includes("/api/")) return;
 
   if (request.mode === "navigate") {
     event.respondWith(
