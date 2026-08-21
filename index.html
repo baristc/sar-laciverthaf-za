@@ -13,7 +13,17 @@
     content="Fenerbahçe transfer bilgisi üzerine iki kişilik futbol düellosu."
   />
 
+  <meta name="theme-color" content="#071b3d" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Transfer Düellosu" />
+
   <title>Fener Transfer Düellosu</title>
+
+  <link rel="manifest" href="manifest.webmanifest?v=1" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icon-192.png?v=1" />
+  <link rel="apple-touch-icon" href="images/icon-192.png?v=1" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
 
@@ -28,7 +38,7 @@
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="style.css?v=7" />
+  <link rel="stylesheet" href="style.css?v=8" />
 </head>
 
 <body>
@@ -49,6 +59,14 @@
       </div>
 
       <div class="topbar-actions">
+
+        <button
+          id="installAppButton"
+          class="install-app-button hidden"
+          type="button"
+        >
+          Telefona yükle
+        </button>
 
         <button
           id="historyButton"
@@ -637,5 +655,6 @@
   <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
   <script src="script.js?v=9"></script>
   <script src="online.js?v=7"></script>
+  <script src="pwa.js?v=1"></script>
 </body>
 </html>

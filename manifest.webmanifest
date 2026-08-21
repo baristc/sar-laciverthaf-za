@@ -1,0 +1,27 @@
+{
+  "name": "Fener Transfer Düellosu",
+  "short_name": "Transfer Düellosu",
+  "description": "Fenerbahçe transfer hafızanı tek başına veya arkadaşlarınla test et.",
+  "lang": "tr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#030c1d",
+  "theme_color": "#071b3d",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

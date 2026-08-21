@@ -19,6 +19,7 @@
 body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   font-family: "Montserrat", sans-serif;
   color: var(--white);
   background:
@@ -62,7 +63,22 @@ button {
 .app-shell {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 26px 0 50px;
+  padding: calc(26px + env(safe-area-inset-top)) 0 calc(50px + env(safe-area-inset-bottom));
+}
+
+.install-app-button {
+  min-height: 44px;
+  padding: 11px 16px;
+  border: 1px solid rgba(255, 213, 0, 0.55);
+  border-radius: 12px;
+  color: var(--navy);
+  background: var(--yellow);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.install-app-button:hover {
+  transform: translateY(-2px);
 }
 
 .topbar {
@@ -518,7 +534,22 @@ select option {
     width: min(100% - 20px, 1180px);
   }
 
-  .topbar {
+  .install-app-button {
+  min-height: 44px;
+  padding: 11px 16px;
+  border: 1px solid rgba(255, 213, 0, 0.55);
+  border-radius: 12px;
+  color: var(--navy);
+  background: var(--yellow);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.install-app-button:hover {
+  transform: translateY(-2px);
+}
+
+.topbar {
     align-items: flex-start;
   }
 
@@ -1275,4 +1306,41 @@ button:disabled {
   .mode-tab span { display: none; }
   .mode-panel { padding: 22px 16px; }
   .solo-mission-hud > div { display: grid; }
+}
+
+/* KURULABİLİR MOBİL UYGULAMA */
+@media (max-width: 540px) {
+  .app-shell {
+    padding-top: calc(14px + env(safe-area-inset-top));
+    padding-bottom: calc(28px + env(safe-area-inset-bottom));
+  }
+
+  .topbar {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .brand h1 {
+    font-size: 1rem;
+  }
+
+  .topbar-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  button,
+  input,
+  select {
+    min-height: 48px;
+  }
+
+  input,
+  select {
+    font-size: 16px;
+  }
+
+  button {
+    touch-action: manipulation;
+  }
 }
