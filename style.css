@@ -534,22 +534,7 @@ select option {
     width: min(100% - 20px, 1180px);
   }
 
-  .install-app-button {
-  min-height: 44px;
-  padding: 11px 16px;
-  border: 1px solid rgba(255, 213, 0, 0.55);
-  border-radius: 12px;
-  color: var(--navy);
-  background: var(--yellow);
-  font-weight: 900;
-  cursor: pointer;
-}
-
-.install-app-button:hover {
-  transform: translateY(-2px);
-}
-
-.topbar {
+  .topbar {
     align-items: flex-start;
   }
 
